@@ -1,5 +1,7 @@
 # Pipslayer — M1a + M1b + M2a + M2b + M2c + M2d
 
+Pipslayer is an evolution-first trading research platform. Starting with XAUUSD and MSNR (Market Structure and Support/Resistance), it aims to build reproducible experiments, tick-based simulation, rigorous validation, persistent research knowledge, and AI-assisted strategy discovery. Evidence-driven and human-controlled.
+
 Pipslayer is a research system for testing trading hypotheses with reproducible evidence. It is not a live-trading bot and makes no profitability claim.
 
 ## Included
@@ -49,25 +51,4 @@ $env:PYTHONPATH = "src"
 py -m pipslayer.cli fetch-mt5 --symbol XAUUSD --timeframe M15 --start 2026-01-01T00:00:00Z --end 2026-02-01T00:00:00Z --output-dir .\data\mt5-headway-xauusd-m15 --source-name Headway-MT5 --expected-interval-minutes 15
 ```
 
-The command writes a raw export, then runs Pipslayer's existing CSV audit and emits normalized data, a dataset manifest, and a quality report under the output directory. It reports gaps only when an interval is supplied; the diagnostic does not understand broker holidays, weekends, or session calendars. MT5's `tick_volume` is stored in the canonical `volume` column and is **not** centralized traded volume. Keep raw exports unchanged for traceability.
-
-If the terminal is not the default installation, add `--terminal-path "C:\\path\\to\\terminal64.exe"`. If the symbol is unavailable, inspect Market Watch and use its exact name. No live-trading or order-placement capability is included in this bridge.
-
-## M2d — non-destructive timestamp-gap diagnostics
-
-M2d adds `audit-gaps` for a CSV with a `timestamp` column. It reports elapsed time between consecutive candles, an estimated missing-bar count only when the interval is an exact multiple, sequence issues, and cautious UTC calendar hints. It does **not** assume Headway's trading calendar, determine that a gap is safe, fill bars, sort rows, or modify the input.
-
-Run this against the accepted normalized M15 dataset fetched in M2c:
-
-```powershell
-$env:PYTHONPATH = "src"
-py -m pipslayer.cli audit-gaps .\data\mt5-headway-xauusd-m15\audit\XAUUSD_M15_mt5_raw.normalized.csv --expected-interval-minutes 15 --output-json .\data\mt5-headway-xauusd-m15\audit\gap-diagnostics.json
-```
-
-Open `gap-diagnostics.json` and review each entry's `previous_timestamp_utc`, `next_timestamp_utc`, `elapsed`, `estimated_missing_bars_if_continuous`, and `calendar_hint_not_a_verdict`. `crosses_weekend_closure_candidate` is only a clue; broker hours, holidays, and feed-specific behavior are not encoded. All gaps require review before they can be excluded from or used in strategy research. This diagnostic returns a non-zero exit code if duplicate or out-of-order timestamps are detected.
-
-Run the regression suite after updating:
-
-```powershell
-py -m unittest discover -s tests -v
-```
+The command writes a raw export, then runs Pipslayer's existing CSV audit and emits normalized data, a dataset manifest, and a quality report under the output directory. It reports gaps only
