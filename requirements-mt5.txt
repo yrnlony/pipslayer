@@ -1,0 +1,2 @@
+# Optional dependency for read-only MetaTrader 5 historical-data access on Windows.
+MetaTrader5>=5.0.45

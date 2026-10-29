@@ -1,0 +1,7 @@
+{
+  "strategy_id": "MSNR",
+  "name": "Market Structure and Support/Resistance",
+  "version": "0.1.0",
+  "scope": "registry_only",
+  "executable_rules_present": false
+}

@@ -1,0 +1,1091 @@
+[
+  {
+    "candidate_id": "structure.a_level",
+    "strategy_id": "MSNR",
+    "name": "A-level",
+    "category": "structure",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Close-line peak/resistance; sequence and confirmation unresolved",
+    "unresolved": [
+      "peak sequence",
+      "confirmation count",
+      "equal/near-equal closes"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "structure.v_level",
+    "strategy_id": "MSNR",
+    "name": "V-level",
+    "category": "structure",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Close-line valley/support; sequence and confirmation unresolved",
+    "unresolved": [
+      "valley sequence",
+      "confirmation count",
+      "equal/near-equal closes"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "structure.gap",
+    "strategy_id": "MSNR",
+    "name": "GAP",
+    "category": "structure",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Prior close to next open gap; eligibility and boundaries unresolved",
+    "unresolved": [
+      "candle pair",
+      "same-direction meaning",
+      "minimum size",
+      "boundaries",
+      "timeframes"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "structure.ocl",
+    "strategy_id": "MSNR",
+    "name": "OCL",
+    "category": "structure",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Optional historical open/close level family",
+    "unresolved": [
+      "eligible candles",
+      "calculation",
+      "relevance"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.ls1a_new_fresh",
+    "strategy_id": "MSNR",
+    "name": "LS-1A new level starts fresh",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Hypothesis: a newly established level begins fresh",
+    "unresolved": [
+      "level creation",
+      "freshness transition"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.ls1b_wick_touch",
+    "strategy_id": "MSNR",
+    "name": "LS-1B wick touch",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Hypothesis: wick touch/rejection changes freshness",
+    "unresolved": [
+      "touch definition",
+      "rejection definition",
+      "timeframe"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.ls1c_body_close_flip",
+    "strategy_id": "MSNR",
+    "name": "LS-1C close-through flip/renewal",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Hypothesis: body close through can flip role and renew freshness",
+    "unresolved": [
+      "close-through",
+      "role flip",
+      "renewal"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.break_retest",
+    "strategy_id": "MSNR",
+    "name": "Break-and-retest",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Separate role-reversal hypothesis",
+    "unresolved": [
+      "break",
+      "retest",
+      "expiry"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.first_touch_spent",
+    "strategy_id": "MSNR",
+    "name": "First-touch-spent",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Hypothesis that first qualifying touch consumes/changes state",
+    "unresolved": [
+      "qualifying touch",
+      "state transition"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.visit_count_expiry",
+    "strategy_id": "MSNR",
+    "name": "Visit count/expiry",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Hypothesis using visit count and/or expiry",
+    "unresolved": [
+      "visit definition",
+      "threshold",
+      "expiry"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.retest",
+    "strategy_id": "MSNR",
+    "name": "Retest variants",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Alternative retest interpretations",
+    "unresolved": [
+      "distance",
+      "timing",
+      "confirmation"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.renewal",
+    "strategy_id": "MSNR",
+    "name": "Renewal variants",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Alternative level renewal interpretations",
+    "unresolved": [
+      "renewal trigger",
+      "state transition"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.merging",
+    "strategy_id": "MSNR",
+    "name": "Level merging",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Merging nearby or related levels",
+    "unresolved": [
+      "merge criteria",
+      "lineage"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "level_state.confluence",
+    "strategy_id": "MSNR",
+    "name": "Level confluence",
+    "category": "level_state",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Confluence between candidate levels",
+    "unresolved": [
+      "confluence definition",
+      "counting"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "context.d1",
+    "strategy_id": "MSNR",
+    "name": "D1 context",
+    "category": "context",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Optional daily context",
+    "unresolved": [
+      "context definition"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "context.w1",
+    "strategy_id": "MSNR",
+    "name": "W1 context",
+    "category": "context",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Optional weekly context",
+    "unresolved": [
+      "context definition"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "context.sessions",
+    "strategy_id": "MSNR",
+    "name": "Trading sessions",
+    "category": "context",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Optional session context",
+    "unresolved": [
+      "timezone",
+      "session boundaries"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "context.session_high_low",
+    "strategy_id": "MSNR",
+    "name": "Session high/low",
+    "category": "context",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Optional session high/low reference",
+    "unresolved": [
+      "session boundaries",
+      "availability timing"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "context.asian_low",
+    "strategy_id": "MSNR",
+    "name": "Asian low",
+    "category": "context",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Optional Asian-session low",
+    "unresolved": [
+      "session boundaries",
+      "availability timing"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "context.next_opposing_level",
+    "strategy_id": "MSNR",
+    "name": "Next opposing level",
+    "category": "context",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Optional next opposing structural level",
+    "unresolved": [
+      "level selection"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.engulfing.generic",
+    "strategy_id": "MSNR",
+    "name": "Generic engulfing",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Engulfing trigger; definition unresolved",
+    "unresolved": [
+      "body/range basis",
+      "conditions"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.engulfing.body",
+    "strategy_id": "MSNR",
+    "name": "Body-based engulfing",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Body-based engulfing candidate",
+    "unresolved": [
+      "body coverage",
+      "equal bodies"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.engulfing.malaysian_strict",
+    "strategy_id": "MSNR",
+    "name": "Strict Malaysian engulfing",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Named variant; exact requirements unresolved",
+    "unresolved": [
+      "owner definition",
+      "sequence",
+      "body/wick requirements"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.engulfing.full_range",
+    "strategy_id": "MSNR",
+    "name": "Full-range engulfing",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Full-range engulfing candidate",
+    "unresolved": [
+      "high/low coverage"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.engulfing.retest",
+    "strategy_id": "MSNR",
+    "name": "Retest engulfing",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Engulfing in retest context",
+    "unresolved": [
+      "retest",
+      "timing"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.rejection.wick",
+    "strategy_id": "MSNR",
+    "name": "Wick-based rejection",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Rejection based on wick behavior",
+    "unresolved": [
+      "ratio",
+      "direction",
+      "zone interaction"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.rejection.close_back",
+    "strategy_id": "MSNR",
+    "name": "Close-back confirmation",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Rejection requiring close back relative to zone",
+    "unresolved": [
+      "boundary",
+      "timing"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.rejection.ratio",
+    "strategy_id": "MSNR",
+    "name": "Wick/body ratio rejection",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Rejection using wick/body ratios",
+    "unresolved": [
+      "threshold",
+      "candle selection"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.rejection.overshoot",
+    "strategy_id": "MSNR",
+    "name": "Overshoot rejection",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Rejection after price overshoots a zone",
+    "unresolved": [
+      "overshoot",
+      "recovery"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.structure.swing_break",
+    "strategy_id": "MSNR",
+    "name": "Swing-break confirmation",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Confirmation based on swing break",
+    "unresolved": [
+      "swing definition",
+      "break confirmation"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.structure.close_break",
+    "strategy_id": "MSNR",
+    "name": "Close-break confirmation",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Confirmation based on close through structure",
+    "unresolved": [
+      "reference",
+      "close criteria"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.structure.break_retest",
+    "strategy_id": "MSNR",
+    "name": "Break-and-retest confirmation",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Confirmation after break and retest",
+    "unresolved": [
+      "break",
+      "retest window"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.sweep_reclaim",
+    "strategy_id": "MSNR",
+    "name": "Sweep-and-reclaim",
+    "category": "ltf",
+    "version": 1,
+    "status": "flag_for_review",
+    "definition_summary": "Flag for review; not automatically accepted or banned",
+    "unresolved": [
+      "sweep definition",
+      "reclaim definition"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.displacement",
+    "strategy_id": "MSNR",
+    "name": "Displacement",
+    "category": "ltf",
+    "version": 1,
+    "status": "flag_for_review",
+    "definition_summary": "Flag for review; strong directional move, definition unresolved",
+    "unresolved": [
+      "range/body threshold",
+      "context"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.failed_continuation",
+    "strategy_id": "MSNR",
+    "name": "Failed continuation",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Trigger candidate when continuation fails",
+    "unresolved": [
+      "continuation",
+      "failure"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.consolidation_breakout",
+    "strategy_id": "MSNR",
+    "name": "Consolidation breakout",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Trigger candidate from consolidation breakout",
+    "unresolved": [
+      "consolidation",
+      "breakout"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.pullback_continuation",
+    "strategy_id": "MSNR",
+    "name": "Pullback continuation",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Continuation after pullback",
+    "unresolved": [
+      "pullback",
+      "continuation"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.role_reversal_retest",
+    "strategy_id": "MSNR",
+    "name": "Role-reversal retest",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Trigger involving support/resistance role reversal",
+    "unresolved": [
+      "role reversal",
+      "retest"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "entry.timing",
+    "strategy_id": "MSNR",
+    "name": "Entry timing variants",
+    "category": "entry",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Alternative timing after confirmation",
+    "unresolved": [
+      "bar-close/intrabar",
+      "order timing",
+      "validity window"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "invalidation.opposing_zone",
+    "strategy_id": "MSNR",
+    "name": "Opposing reaction-zone invalidation",
+    "category": "invalidation",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Candidate invalidation around opposing reaction zone",
+    "unresolved": [
+      "zone selection",
+      "boundary"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "stops.structural",
+    "strategy_id": "MSNR",
+    "name": "Structural stop variants",
+    "category": "stops",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Stop placement research family",
+    "unresolved": [
+      "reference structure",
+      "buffer"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "targets.session_high_low",
+    "strategy_id": "MSNR",
+    "name": "Session high/low targets",
+    "category": "targets",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Candidate targets using session extremes",
+    "unresolved": [
+      "session boundaries",
+      "selection"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "targets.asian_low",
+    "strategy_id": "MSNR",
+    "name": "Asian-low target",
+    "category": "targets",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Candidate target using Asian low",
+    "unresolved": [
+      "session definition",
+      "direction"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "targets.next_opposing_level",
+    "strategy_id": "MSNR",
+    "name": "Next opposing level target",
+    "category": "targets",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Target using next opposing structural level",
+    "unresolved": [
+      "level selection"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "management.breakeven",
+    "strategy_id": "MSNR",
+    "name": "Breakeven variants",
+    "category": "management",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Alternative breakeven activation/placement",
+    "unresolved": [
+      "activation",
+      "stop price"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "management.partial_exits",
+    "strategy_id": "MSNR",
+    "name": "Partial-exit variants",
+    "category": "management",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Alternative partial-exit hypotheses",
+    "unresolved": [
+      "fraction",
+      "trigger",
+      "remainder"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "research.environment_tolerance",
+    "strategy_id": "MSNR",
+    "name": "Chart-environment tolerances",
+    "category": "research",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Price/time tolerance research dimension",
+    "unresolved": [
+      "price tolerance",
+      "time tolerance"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "research.discretionary_capture",
+    "strategy_id": "MSNR",
+    "name": "Discretionary decision capture",
+    "category": "research",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Capture human judgments and skipped setups",
+    "unresolved": [
+      "capture schema",
+      "bias controls"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "research.combination_operators",
+    "strategy_id": "MSNR",
+    "name": "LTF combination operators",
+    "category": "research",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "All-of/any-of/ordered combination research",
+    "unresolved": [
+      "operator",
+      "time window",
+      "ordering"
+    ],
+    "lineage": [],
+    "tags": [
+      "research_candidate",
+      "non_executable"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  }
+]

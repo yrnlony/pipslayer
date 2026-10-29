@@ -1,0 +1,34 @@
+[
+  {
+    "config_id": "PRIMARY",
+    "reference_timeframe": "H4",
+    "setup_timeframe": "H2",
+    "reaction_timeframe": "M15",
+    "status": "baseline",
+    "notes": [
+      "Owner's current baseline.",
+      "M15 reflects current method, not proven superior."
+    ]
+  },
+  {
+    "config_id": "PRIMARY_M5",
+    "reference_timeframe": "H4",
+    "setup_timeframe": "H2",
+    "reaction_timeframe": "M5",
+    "status": "inert_alternative",
+    "notes": [
+      "Not default; no M5 detectors implemented."
+    ]
+  },
+  {
+    "config_id": "TWO_H_ONE_H",
+    "reference_timeframe": null,
+    "setup_timeframe": "H2",
+    "reaction_timeframe": "H1",
+    "status": "separate_named_configuration",
+    "notes": [
+      "No H4 prerequisite assumed.",
+      "Relationship to PRIMARY unspecified."
+    ]
+  }
+]
