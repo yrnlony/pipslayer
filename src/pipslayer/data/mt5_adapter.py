@@ -1,27 +1,22 @@
 """Read-only historical candle adapter for the MetaTrader 5 Python package.
 
-This adapter only reads market rates. It never places, modifies, or closes orders.
-MT5 bar timestamps are Unix seconds and are interpreted as UTC, per the MT5 API.
+MT5 bar timestamps are epoch seconds. M2e preserves the numeric source timestamp
+but records the interpretation as unverified; this adapter does not establish
+broker-server timezone or daily-boundary semantics.
 """
 from __future__ import annotations
 
 import csv
 from datetime import datetime, timezone
 import importlib
+import os
 from pathlib import Path
+import tempfile
 from typing import Any
 
-MT5_TIMEFRAMES = {
-    "M1": "TIMEFRAME_M1",
-    "M5": "TIMEFRAME_M5",
-    "M15": "TIMEFRAME_M15",
-    "M30": "TIMEFRAME_M30",
-    "H1": "TIMEFRAME_H1",
-    "H2": "TIMEFRAME_H2",
-    "H4": "TIMEFRAME_H4",
-    "D1": "TIMEFRAME_D1",
-    "W1": "TIMEFRAME_W1",
-}
+from .candles import TIMEFRAME_MINUTES
+
+MT5_TIMEFRAMES = {name: f"TIMEFRAME_{name}" for name in TIMEFRAME_MINUTES}
 
 
 def _aware_utc(value: datetime, label: str) -> datetime:
@@ -40,20 +35,19 @@ def _rate_field(rate: Any, name: str, default: Any = None) -> Any:
         return default
 
 
-def fetch_mt5_rates(
-    symbol: str,
-    timeframe: str,
-    start: datetime,
-    end: datetime,
-    *,
-    terminal_path: str | None = None,
-    mt5_module: Any | None = None,
-) -> list[dict[str, Any]]:
-    """Connect to an already configured MT5 terminal and fetch historical rates.
+def fetch_mt5_rates_with_context(symbol: str, timeframe: str, start: datetime, end: datetime, *,
+                                 terminal_path: str | None = None, mt5_module: Any | None = None) -> dict[str, Any]:
+    """Fetch rates plus source context without claiming timestamp semantics are verified."""
+    rates = fetch_mt5_rates(symbol, timeframe, start, end, terminal_path=terminal_path, mt5_module=mt5_module)
+    return {"rates": rates, "source": "MetaTrader5", "symbol": symbol, "timeframe": timeframe.upper(),
+            "requested_start_utc": _aware_utc(start, "start").isoformat().replace("+00:00", "Z"),
+            "requested_end_utc": _aware_utc(end, "end").isoformat().replace("+00:00", "Z"),
+            "timestamp_semantics": "unverified", "timestamp_note": "MT5 epoch values are exported as UTC-shaped timestamps; broker clock semantics are not independently verified."}
 
-    `mt5_module` is injectable for tests. In normal use the MetaTrader5 package
-    is imported lazily. Caller owns terminal shutdown via `shutdown_mt5`.
-    """
+
+def fetch_mt5_rates(symbol: str, timeframe: str, start: datetime, end: datetime, *,
+                    terminal_path: str | None = None, mt5_module: Any | None = None) -> list[dict[str, Any]]:
+    """Connect to an already configured MT5 terminal and fetch historical rates."""
     if not symbol or not symbol.strip():
         raise ValueError("symbol must not be blank")
     timeframe = timeframe.upper()
@@ -63,7 +57,6 @@ def fetch_mt5_rates(
     end_utc = _aware_utc(end, "end")
     if start_utc >= end_utc:
         raise ValueError("start must be earlier than end")
-
     mt5 = mt5_module or importlib.import_module("MetaTrader5")
     init_kwargs = {"path": terminal_path} if terminal_path else {}
     if not mt5.initialize(**init_kwargs):
@@ -81,43 +74,39 @@ def fetch_mt5_rates(
 
 
 def shutdown_mt5(mt5_module: Any | None = None) -> None:
-    """Shut down the MT5 connection after a successful initialize."""
+    """Shut down an MT5 connection after a successful initialize."""
     mt5 = mt5_module or importlib.import_module("MetaTrader5")
     mt5.shutdown()
 
 
-def write_mt5_rates_csv(
-    rates: list[dict[str, Any]],
-    output_csv: str | Path,
-    *,
-    symbol: str,
-    timeframe: str,
-    source_name: str,
-) -> Path:
-    """Write MT5 rates as Pipslayer's canonical UTC OHLC CSV.
-
-    MT5 `tick_volume` is written to `volume`; it is tick activity, not centralized
-    traded volume. Rows are written in the order returned so validation can flag
-    ordering problems rather than silently sorting them.
-    """
+def write_mt5_rates_csv(rates: list[dict[str, Any]], output_csv: str | Path, *,
+                        symbol: str, timeframe: str, source_name: str) -> Path:
+    """Atomically replace a raw MT5 CSV only after the entire export is written."""
     if not rates:
         raise ValueError("MT5 returned zero candles for the requested range")
     destination = Path(output_csv).expanduser().resolve()
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with destination.open("w", newline="", encoding="utf-8") as stream:
-        writer = csv.DictWriter(stream, fieldnames=["timestamp", "open", "high", "low", "close", "volume"])
-        writer.writeheader()
-        for index, rate in enumerate(rates, start=1):
-            try:
-                stamp = datetime.fromtimestamp(int(_rate_field(rate, "time")), tz=timezone.utc)
-                writer.writerow({
-                    "timestamp": stamp.isoformat().replace("+00:00", "Z"),
-                    "open": _rate_field(rate, "open"), "high": _rate_field(rate, "high"),
-                    "low": _rate_field(rate, "low"), "close": _rate_field(rate, "close"),
-                    "volume": _rate_field(rate, "tick_volume", ""),
-                })
-            except (KeyError, TypeError, ValueError, OverflowError) as exc:
-                stream.close()
-                destination.unlink(missing_ok=True)
-                raise ValueError(f"Malformed MT5 rate at returned row {index}: {exc}") from exc
+    fd, temp_name = tempfile.mkstemp(prefix=f".{destination.name}.", suffix=".tmp", dir=destination.parent)
+    os.close(fd)
+    temp = Path(temp_name)
+    try:
+        with temp.open("w", newline="", encoding="utf-8") as stream:
+            writer = csv.DictWriter(stream, fieldnames=["timestamp", "open", "high", "low", "close", "volume"], lineterminator="\n")
+            writer.writeheader()
+            for index, rate in enumerate(rates, start=1):
+                try:
+                    stamp = datetime.fromtimestamp(int(_rate_field(rate, "time")), tz=timezone.utc)
+                    values = [_rate_field(rate, name) for name in ("open", "high", "low", "close")]
+                    if any(value is None for value in values):
+                        raise ValueError("missing OHLC field")
+                    writer.writerow({"timestamp": stamp.isoformat().replace("+00:00", "Z"),
+                                     "open": values[0], "high": values[1], "low": values[2], "close": values[3],
+                                     "volume": _rate_field(rate, "tick_volume", "")})
+                except (KeyError, TypeError, ValueError, OverflowError) as exc:
+                    raise ValueError(f"Malformed MT5 rate at returned row {index}: {exc}") from exc
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temp, destination)
+    finally:
+        temp.unlink(missing_ok=True)
     return destination

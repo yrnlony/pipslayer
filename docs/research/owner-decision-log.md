@@ -8,6 +8,7 @@
 - **D-006 Level state:** LS-1A new level starts fresh, LS-1B wick touch changes freshness, LS-1C body close through can flip role/renew freshness are separate versioned hypotheses. Break-and-retest, first-touch-spent, and visit-count/expiry remain separate.
 - **D-007 Vocabulary:** sweep-and-reclaim and displacement flagged for review; fair-value-gap and order block rejected as foreign constructs for this strategy vocabulary.
 - **D-008 Definition drafts:** V-level → A-level → GAP. Drafts remain non-executable until owner approval.
+- **D-009 M2e data integrity:** canonical dataset identity, manifest schema v2, staged/journaled publication, explicit recovery, rejected-import preservation, provisional timeframe checks in report-only mode, last-bar flagging by default, and timestamp semantics remaining unverified. No strategy, simulator, evolution, or live-execution changes.
 
 ## Unresolved
 Data provider/timezone/boundaries; bar-close versus intrabar entry timing; exact A/V/GAP/OCL definitions; H4↔H2 relationship; touch/through/freshness rules; LTF thresholds including strict Malaysian engulfing; combination logic/windows; entry/invalidation/stops/targets/management; tolerances; discretionary elements. M1 must not resolve these silently.

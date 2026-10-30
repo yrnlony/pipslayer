@@ -52,3 +52,54 @@ py -m pipslayer.cli fetch-mt5 --symbol XAUUSD --timeframe M15 --start 2026-01-01
 ```
 
 The command writes a raw export, then runs Pipslayer's existing CSV audit and emits normalized data, a dataset manifest, and a quality report under the output directory. It reports gaps only
+## Dataset integrity and reproducibility (M2e)
+
+M2e strengthens dataset identity, provenance, validation, and safe publication.
+
+### What's new
+
+- Versioned canonical dataset hashing using `candle-canon-v1`.
+- Separate hashes for source files, canonical dataset content, and normalized output files.
+- Manifest schema v2 with expanded provenance and integrity metadata.
+- Dataset verification.
+- Configurable timeframe diagnostics, defaulting to report-only.
+- Last-candle completeness assessment, defaulting to flagging rather than excluding.
+- Read-only MT5 clock diagnostics that do not automatically decide timestamp correctness.
+- Safer output publication and recovery procedures.
+- Protection of previously accepted datasets when a replacement import is rejected.
+- Safer replacement of MT5 raw exports.
+
+### Verify a dataset
+
+```powershell
+$env:PYTHONPATH = "src"
+py -m pipslayer.cli verify-dataset --help
+```
+
+Use the displayed arguments to verify a dataset and its manifest.
+
+### Recover interrupted output publication
+
+```powershell
+py -m pipslayer.cli recover-outputs --help
+```
+
+This command provides the recovery interface for interrupted publication operations.
+
+### Check MT5 clock observations
+
+```powershell
+py -m pipslayer.cli mt5-clock-check --help
+```
+
+This performs read-only clock diagnostics. Its observations are non-conclusive and do not establish broker timestamp correctness.
+
+### Important limitations
+
+Timeframe diagnostics are provisional. They do not establish that a broker's feed is complete or correctly timestamped.
+
+Last-candle assessment is a warning mechanism, not proof that a candle is complete.
+
+A valid canonical hash establishes dataset identity under the specified canonicalization rules. It does not establish market-data accuracy or trading profitability.
+
+See `docs/architecture/dataset-canonicalization-v1.md` and `docs/architecture/m2e-data-integrity.md` for technical details.

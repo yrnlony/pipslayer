@@ -46,7 +46,10 @@ class CanonicalCsvImportTests(unittest.TestCase):
         manifest = json.loads(Path(result.manifest_json).read_text(encoding="utf-8"))
         self.assertTrue(report["accepted"])
         self.assertEqual(manifest["row_count"], 2)
-        self.assertEqual(manifest["timestamp_timezone"], "UTC")
+        self.assertEqual(manifest["timestamp_semantics"]["verification_status"], "unverified")
+        self.assertEqual(manifest["schema_version"], 2)
+        self.assertTrue(manifest["canonical_content_sha256"])
+        self.assertTrue(manifest["normalized_file_sha256"])
         with Path(result.output_csv).open(encoding="utf-8", newline="") as stream:
             output_rows = list(csv.DictReader(stream))
         self.assertEqual(output_rows[0]["timestamp"], "2026-10-01T09:00:00Z")
@@ -108,6 +111,9 @@ class CanonicalCsvImportTests(unittest.TestCase):
         report = json.loads(Path(result.report_json).read_text(encoding="utf-8"))
         self.assertFalse(report["accepted"])
         self.assertIsNone(result.output_csv)
+        self.assertFalse((self.output / "gold.normalized.csv").exists())
+        self.assertFalse((self.output / "gold.manifest.json").exists())
+        self.assertIn("rejections", Path(result.report_json).parts)
 
 if __name__ == "__main__":
     unittest.main()

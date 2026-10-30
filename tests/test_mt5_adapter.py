@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from types import SimpleNamespace
 
-from pipslayer.data.mt5_adapter import fetch_mt5_rates, write_mt5_rates_csv
+from pipslayer.data.mt5_adapter import fetch_mt5_rates, fetch_mt5_rates_with_context, write_mt5_rates_csv
 
 
 class FakeMT5:
@@ -52,6 +52,13 @@ class MT5AdapterTests(unittest.TestCase):
         self.assertTrue(fake.shutdown_called)
         self.assertEqual(fake.range_args[0:2], ("XAUUSD", 15))
 
+    def test_context_fetch_marks_timestamp_semantics_unverified(self):
+        fake = FakeMT5(self.rates)
+        result = fetch_mt5_rates_with_context("XAUUSD", "M15", self.start, self.end, mt5_module=fake)
+        self.assertEqual(result["timestamp_semantics"], "unverified")
+        self.assertEqual(result["rates"], self.rates)
+        self.assertTrue(fake.shutdown_called)
+
     def test_rejects_naive_datetime(self):
         fake = FakeMT5(self.rates)
         with self.assertRaisesRegex(ValueError, "timezone"):
@@ -77,6 +84,14 @@ class MT5AdapterTests(unittest.TestCase):
             self.assertEqual(list(rows[0]), ["timestamp", "open", "high", "low", "close", "volume"])
             self.assertTrue(rows[0]["timestamp"].endswith("Z"))
             self.assertEqual(rows[0]["volume"], "321")
+
+    def test_malformed_refetch_does_not_truncate_existing_raw_export(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "rates.csv"
+            path.write_text("previous accepted export\n", encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "Malformed MT5 rate"):
+                write_mt5_rates_csv([{"time": "bad"}], path, symbol="XAUUSD", timeframe="M15", source_name="test")
+            self.assertEqual(path.read_text(encoding="utf-8"), "previous accepted export\n")
 
     def test_rejects_empty_rate_list(self):
         with tempfile.TemporaryDirectory() as tmp:
