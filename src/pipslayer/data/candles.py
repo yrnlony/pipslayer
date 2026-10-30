@@ -1,8 +1,4 @@
-"""Provider-neutral OHLC candle schema and conservative data-quality checks.
-
-The validator reports gaps only against a caller-supplied interval. It does not
-assume a broker session calendar, weekend policy, or timeframe alignment rule.
-"""
+"""Provider-neutral OHLC candle schema and conservative data-quality checks."""
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -10,7 +6,11 @@ from datetime import datetime, timedelta, timezone
 import math
 from typing import Iterable
 
-SUPPORTED_TIMEFRAMES = {"M1", "M5", "M15", "M30", "H1", "H2", "H4", "D1", "W1"}
+TIMEFRAME_MINUTES = {
+    "M1": 1, "M5": 5, "M15": 15, "M30": 30,
+    "H1": 60, "H2": 120, "H4": 240, "D1": 1440, "W1": 10080,
+}
+SUPPORTED_TIMEFRAMES = frozenset(TIMEFRAME_MINUTES)
 
 
 def _require_aware_utc(value: datetime) -> None:
@@ -63,14 +63,8 @@ class CandleValidationReport:
         return not self.errors and not self.duplicate_timestamps and not self.out_of_order_pairs
 
 
-def validate_candles(
-    candles: Iterable[Candle], *, expected_interval: timedelta | None = None
-) -> CandleValidationReport:
-    """Check a sequence without sorting or silently repairing it.
-
-    Gaps are informational and are not errors because session calendars vary.
-    A gap is reported only when expected_interval is explicitly supplied.
-    """
+def validate_candles(candles: Iterable[Candle], *, expected_interval: timedelta | None = None) -> CandleValidationReport:
+    """Check a sequence without sorting or silently repairing it. Gaps are informational."""
     rows = list(candles)
     errors: list[str] = []
     duplicates: list[str] = []
@@ -96,7 +90,7 @@ def validate_candles(
 
 
 def parse_utc_timestamp(value: str) -> datetime:
-    """Parse an ISO-8601 timestamp and normalize it to UTC; reject naive values."""
-    parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    """Parse ISO-8601 with an explicit offset and normalize to UTC."""
+    parsed = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
     _require_aware_utc(parsed)
     return parsed.astimezone(timezone.utc)

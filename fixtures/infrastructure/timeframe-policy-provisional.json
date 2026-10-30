@@ -1,0 +1,7 @@
+{
+  "min_deltas": 20,
+  "match_share": 0.7,
+  "conflict_declared_max": 0.2,
+  "conflict_other_min": 0.5,
+  "provisional": true
+}

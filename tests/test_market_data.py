@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime, timedelta, timezone
 
-from pipslayer.data import Candle, DatasetManifest, validate_candles
+from pipslayer.data import Candle, DatasetManifest, TimestampSemantics, validate_candles
 from pipslayer.data.candles import parse_utc_timestamp
 
 UTC = timezone.utc
@@ -55,12 +55,15 @@ class CandleTests(unittest.TestCase):
 
 class ManifestTests(unittest.TestCase):
     def test_manifest_validates_date_range(self):
-        manifest = DatasetManifest("fixture-1", "XAUUSD", "M15", "synthetic fixture", "UTC",
-                                   T0, T0 + timedelta(days=1), True)
+        fields = dict(dataset_id="fixture-1", symbol="XAUUSD", timeframe="M15", source_name="synthetic fixture",
+                      start_time=T0, end_time=T0 + timedelta(days=1), synthetic=True, source_sha256="a" * 64,
+                      canonical_content_sha256="b" * 64, normalized_file_sha256="c" * 64,
+                      normalized_file_name="fixture.normalized.csv", source_file_name="fixture.csv", row_count=2,
+                      timestamp_semantics=TimestampSemantics("synthetic UTC timestamps"), run_id="run-1")
+        manifest = DatasetManifest(**fields)
         self.assertTrue(manifest.synthetic)
         with self.assertRaisesRegex(ValueError, "start_time"):
-            DatasetManifest("fixture-2", "XAUUSD", "M15", "fixture", "UTC",
-                            T0 + timedelta(days=1), T0, True)
+            DatasetManifest(**{**fields, "dataset_id": "fixture-2", "start_time": T0 + timedelta(days=1), "end_time": T0})
 
 if __name__ == "__main__":
     unittest.main()
