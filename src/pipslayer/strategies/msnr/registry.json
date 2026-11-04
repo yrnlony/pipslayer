@@ -1087,5 +1087,213 @@
       "executable": false,
       "performance_status": "untested"
     }
+  },
+  {
+    "candidate_id": "ltf.cc.v_level",
+    "strategy_id": "MSNR",
+    "name": "V-level confirmation candle",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Source-derived Malaysian SnR V-level CC candidate; exact pattern and confirmation criteria require owner review.",
+    "unresolved": [
+      "candle sequence",
+      "level-touch tolerance",
+      "body/wick conditions",
+      "confirmation timing"
+    ],
+    "lineage": [
+      {
+        "parent_id": "ltf.rejection.wick",
+        "relationship": "related_rejection_mechanics"
+      },
+      {
+        "parent_id": "ltf.rejection.close_back",
+        "relationship": "related_close_confirmation"
+      }
+    ],
+    "tags": [
+      "research_candidate",
+      "non_executable",
+      "confirmation_candle",
+      "source_derived",
+      "owner_review_required"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.cc.a_level",
+    "strategy_id": "MSNR",
+    "name": "A-level confirmation candle",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Source-derived Malaysian SnR A-level CC candidate; exact pattern and confirmation criteria require owner review.",
+    "unresolved": [
+      "candle sequence",
+      "level-touch tolerance",
+      "body/wick conditions",
+      "confirmation timing"
+    ],
+    "lineage": [
+      {
+        "parent_id": "ltf.rejection.wick",
+        "relationship": "related_rejection_mechanics"
+      },
+      {
+        "parent_id": "ltf.rejection.close_back",
+        "relationship": "related_close_confirmation"
+      }
+    ],
+    "tags": [
+      "research_candidate",
+      "non_executable",
+      "confirmation_candle",
+      "source_derived",
+      "owner_review_required"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.cc.gap_bullish",
+    "strategy_id": "MSNR",
+    "name": "Bullish GAP confirmation candle",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Source-derived bullish GAP CC candidate; exact candle sequence and level interaction require owner review.",
+    "unresolved": [
+      "required candle sequence",
+      "GAP-level interaction",
+      "confirmation criteria",
+      "timing"
+    ],
+    "lineage": [
+      {
+        "parent_id": "structure.gap",
+        "relationship": "uses_gap_structure"
+      }
+    ],
+    "tags": [
+      "research_candidate",
+      "non_executable",
+      "confirmation_candle",
+      "source_derived",
+      "owner_review_required"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.cc.gap_bearish",
+    "strategy_id": "MSNR",
+    "name": "Bearish GAP confirmation candle",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Source-derived bearish GAP CC candidate; exact candle sequence and level interaction require owner review.",
+    "unresolved": [
+      "required candle sequence",
+      "GAP-level interaction",
+      "confirmation criteria",
+      "timing"
+    ],
+    "lineage": [
+      {
+        "parent_id": "structure.gap",
+        "relationship": "uses_gap_structure"
+      }
+    ],
+    "tags": [
+      "research_candidate",
+      "non_executable",
+      "confirmation_candle",
+      "source_derived",
+      "owner_review_required"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.cc.rbs",
+    "strategy_id": "MSNR",
+    "name": "Resistance-becomes-support confirmation candle",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Source-derived RBS CC candidate; break, retest, and confirmation requirements require owner review.",
+    "unresolved": [
+      "resistance-break definition",
+      "retest conditions",
+      "confirmation candle criteria",
+      "timing"
+    ],
+    "lineage": [
+      {
+        "parent_id": "ltf.structure.break_retest",
+        "relationship": "related_break_retest"
+      },
+      {
+        "parent_id": "ltf.role_reversal_retest",
+        "relationship": "related_role_reversal"
+      }
+    ],
+    "tags": [
+      "research_candidate",
+      "non_executable",
+      "confirmation_candle",
+      "source_derived",
+      "owner_review_required"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
+  },
+  {
+    "candidate_id": "ltf.cc.sbr",
+    "strategy_id": "MSNR",
+    "name": "Support-becomes-resistance confirmation candle",
+    "category": "ltf",
+    "version": 1,
+    "status": "draft",
+    "definition_summary": "Source-derived SBR CC candidate; break, retest, and confirmation requirements require owner review.",
+    "unresolved": [
+      "support-break definition",
+      "retest conditions",
+      "confirmation candle criteria",
+      "timing"
+    ],
+    "lineage": [
+      {
+        "parent_id": "ltf.structure.break_retest",
+        "relationship": "related_break_retest"
+      },
+      {
+        "parent_id": "ltf.role_reversal_retest",
+        "relationship": "related_role_reversal"
+      }
+    ],
+    "tags": [
+      "research_candidate",
+      "non_executable",
+      "confirmation_candle",
+      "source_derived",
+      "owner_review_required"
+    ],
+    "metadata": {
+      "executable": false,
+      "performance_status": "untested"
+    }
   }
 ]
