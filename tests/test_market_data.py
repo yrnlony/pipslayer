@@ -1,8 +1,7 @@
 import unittest
 from datetime import datetime, timedelta, timezone
 
-from pipslayer.data import Candle, DatasetManifest, TimestampSemantics, validate_candles
-from pipslayer.data.candles import parse_utc_timestamp
+from pipslayer.data import Candle, DatasetManifest, TimestampSemantics, parse_utc_timestamp, validate_candles
 
 UTC = timezone.utc
 T0 = datetime(2030, 1, 1, tzinfo=UTC)
