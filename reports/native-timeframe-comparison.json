@@ -1,0 +1,367 @@
+{
+  "comparison": "native H2/H4 OHLC versus exact M15 time buckets",
+  "symbol": "XAUUSD",
+  "timestamp_interpretation": "UTC timestamps as stored; no shifting or boundary repair",
+  "aggregation_rule": {
+    "open": "first M15 open",
+    "high": "maximum M15 high",
+    "low": "minimum M15 low",
+    "close": "last M15 close",
+    "volume": "not compared"
+  },
+  "inputs": {
+    "m15": "C:\\Users\\user\\Downloads\\pipslayer_m1a_m1b_m2a_m2b_m2c_m2d\\pipslayer\\data\\canonical-headway-xauusd-m15-2026-05-to-2026-11\\XAUUSD_M15_2026-05_to_2026-11.normalized.csv",
+    "h2": "C:\\Users\\user\\Downloads\\pipslayer_m1a_m1b_m2a_m2b_m2c_m2d\\pipslayer\\data\\mt5-headway-xauusd-h2-2026-05-to-2026-11\\audit\\XAUUSD_H2_mt5_raw.normalized.csv",
+    "h4": "C:\\Users\\user\\Downloads\\pipslayer_m1a_m1b_m2a_m2b_m2c_m2d\\pipslayer\\data\\mt5-headway-xauusd-h4-2026-05-to-2026-11\\audit\\XAUUSD_H4_mt5_raw.normalized.csv"
+  },
+  "m15_rows": 12443,
+  "m15_start": "2026-05-01T01:00:00+00:00",
+  "m15_end": "2026-11-06T19:45:00+00:00",
+  "results": {
+    "H2": {
+      "timeframe": "H2",
+      "native_rows": 1627,
+      "required_m15_bars_per_native_bar": 8,
+      "manifest_last_bar_status": "no_evidence_of_incompleteness",
+      "native_timestamp_off_grid_count": 0,
+      "native_timestamp_off_grid_examples": [],
+      "counts": {
+        "insufficient_m15_coverage": 141,
+        "match": 1485,
+        "mismatch": 1
+      },
+      "monthly_counts": {
+        "2026-05": {
+          "insufficient_m15_coverage": 22,
+          "match": 229
+        },
+        "2026-06": {
+          "insufficient_m15_coverage": 23,
+          "match": 240
+        },
+        "2026-07": {
+          "insufficient_m15_coverage": 24,
+          "match": 251
+        },
+        "2026-08": {
+          "insufficient_m15_coverage": 21,
+          "match": 231
+        },
+        "2026-09": {
+          "insufficient_m15_coverage": 23,
+          "match": 240
+        },
+        "2026-10": {
+          "insufficient_m15_coverage": 22,
+          "match": 242
+        },
+        "2026-11": {
+          "insufficient_m15_coverage": 6,
+          "match": 52,
+          "mismatch": 1
+        }
+      },
+      "mismatch_examples_first_50": [
+        {
+          "native_timestamp": "2026-11-06T18:00:00+00:00",
+          "differences": {
+            "close": {
+              "native": "4060.15",
+              "from_m15": "4058.41"
+            }
+          }
+        }
+      ],
+      "insufficient_coverage_examples_first_10": [
+        {
+          "native_timestamp": "2026-05-01T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-01T00:00:00+00:00",
+            "2026-05-01T00:15:00+00:00",
+            "2026-05-01T00:30:00+00:00",
+            "2026-05-01T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-04T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-04T00:00:00+00:00",
+            "2026-05-04T00:15:00+00:00",
+            "2026-05-04T00:30:00+00:00",
+            "2026-05-04T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-05T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-05T00:00:00+00:00",
+            "2026-05-05T00:15:00+00:00",
+            "2026-05-05T00:30:00+00:00",
+            "2026-05-05T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-06T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-06T00:00:00+00:00",
+            "2026-05-06T00:15:00+00:00",
+            "2026-05-06T00:30:00+00:00",
+            "2026-05-06T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-07T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-07T00:00:00+00:00",
+            "2026-05-07T00:15:00+00:00",
+            "2026-05-07T00:30:00+00:00",
+            "2026-05-07T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-08T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-08T00:00:00+00:00",
+            "2026-05-08T00:15:00+00:00",
+            "2026-05-08T00:30:00+00:00",
+            "2026-05-08T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-11T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-11T00:00:00+00:00",
+            "2026-05-11T00:15:00+00:00",
+            "2026-05-11T00:30:00+00:00",
+            "2026-05-11T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-12T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-12T00:00:00+00:00",
+            "2026-05-12T00:15:00+00:00",
+            "2026-05-12T00:30:00+00:00",
+            "2026-05-12T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-13T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-13T00:00:00+00:00",
+            "2026-05-13T00:15:00+00:00",
+            "2026-05-13T00:30:00+00:00",
+            "2026-05-13T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-14T00:00:00+00:00",
+          "available_m15_bars": 4,
+          "required_m15_bars": 8,
+          "first_missing_timestamps": [
+            "2026-05-14T00:00:00+00:00",
+            "2026-05-14T00:15:00+00:00",
+            "2026-05-14T00:30:00+00:00",
+            "2026-05-14T00:45:00+00:00"
+          ]
+        }
+      ],
+      "final_native_bar_excluded_by_manifest": false
+    },
+    "H4": {
+      "timeframe": "H4",
+      "native_rows": 816,
+      "required_m15_bars_per_native_bar": 16,
+      "manifest_last_bar_status": "possibly_incomplete",
+      "native_timestamp_off_grid_count": 0,
+      "native_timestamp_off_grid_examples": [],
+      "counts": {
+        "insufficient_m15_coverage": 140,
+        "match": 674,
+        "mismatch": 1,
+        "excluded_native_last_bar_possibly_incomplete": 1
+      },
+      "monthly_counts": {
+        "2026-05": {
+          "insufficient_m15_coverage": 22,
+          "match": 104
+        },
+        "2026-06": {
+          "insufficient_m15_coverage": 23,
+          "match": 109
+        },
+        "2026-07": {
+          "insufficient_m15_coverage": 24,
+          "match": 114
+        },
+        "2026-08": {
+          "insufficient_m15_coverage": 21,
+          "match": 105
+        },
+        "2026-09": {
+          "insufficient_m15_coverage": 23,
+          "match": 109
+        },
+        "2026-10": {
+          "insufficient_m15_coverage": 22,
+          "match": 110
+        },
+        "2026-11": {
+          "insufficient_m15_coverage": 5,
+          "match": 23,
+          "mismatch": 1,
+          "excluded_native_last_bar_possibly_incomplete": 1
+        }
+      },
+      "mismatch_examples_first_50": [
+        {
+          "native_timestamp": "2026-11-06T16:00:00+00:00",
+          "differences": {
+            "close": {
+              "native": "4060.15",
+              "from_m15": "4058.41"
+            }
+          }
+        }
+      ],
+      "insufficient_coverage_examples_first_10": [
+        {
+          "native_timestamp": "2026-05-01T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-01T00:00:00+00:00",
+            "2026-05-01T00:15:00+00:00",
+            "2026-05-01T00:30:00+00:00",
+            "2026-05-01T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-04T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-04T00:00:00+00:00",
+            "2026-05-04T00:15:00+00:00",
+            "2026-05-04T00:30:00+00:00",
+            "2026-05-04T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-05T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-05T00:00:00+00:00",
+            "2026-05-05T00:15:00+00:00",
+            "2026-05-05T00:30:00+00:00",
+            "2026-05-05T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-06T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-06T00:00:00+00:00",
+            "2026-05-06T00:15:00+00:00",
+            "2026-05-06T00:30:00+00:00",
+            "2026-05-06T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-07T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-07T00:00:00+00:00",
+            "2026-05-07T00:15:00+00:00",
+            "2026-05-07T00:30:00+00:00",
+            "2026-05-07T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-08T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-08T00:00:00+00:00",
+            "2026-05-08T00:15:00+00:00",
+            "2026-05-08T00:30:00+00:00",
+            "2026-05-08T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-11T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-11T00:00:00+00:00",
+            "2026-05-11T00:15:00+00:00",
+            "2026-05-11T00:30:00+00:00",
+            "2026-05-11T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-12T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-12T00:00:00+00:00",
+            "2026-05-12T00:15:00+00:00",
+            "2026-05-12T00:30:00+00:00",
+            "2026-05-12T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-13T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-13T00:00:00+00:00",
+            "2026-05-13T00:15:00+00:00",
+            "2026-05-13T00:30:00+00:00",
+            "2026-05-13T00:45:00+00:00"
+          ]
+        },
+        {
+          "native_timestamp": "2026-05-14T00:00:00+00:00",
+          "available_m15_bars": 12,
+          "required_m15_bars": 16,
+          "first_missing_timestamps": [
+            "2026-05-14T00:00:00+00:00",
+            "2026-05-14T00:15:00+00:00",
+            "2026-05-14T00:30:00+00:00",
+            "2026-05-14T00:45:00+00:00"
+          ]
+        }
+      ],
+      "final_native_bar_excluded_by_manifest": true
+    }
+  },
+  "interpretation_notes": [
+    "A bucket is compared only when every expected M15 open timestamp exists.",
+    "Insufficient M15 coverage is not labelled a native-candle defect.",
+    "The H4 final native bar is excluded when its manifest says possibly_incomplete.",
+    "No source files are changed; no candles are synthesized, shifted, or repaired.",
+    "Off-grid counts are diagnostics, not automatic proof of broker-time semantics."
+  ]
+}

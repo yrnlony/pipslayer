@@ -1,4 +1,4 @@
-"""Load and validate MSNR candidate metadata."""
+﻿"""Load and validate MSNR candidate metadata."""
 import json
 from pathlib import Path
 from pipslayer.contracts.records import CandidateRecord, LineageRef
@@ -6,7 +6,13 @@ from pipslayer.contracts.records import CandidateRecord, LineageRef
 REGISTRY_PATH = Path(__file__).with_name("registry.json")
 
 def load_registry(path=None):
-    raw = json.loads((path or REGISTRY_PATH).read_text(encoding="utf-8"))
+    payload = json.loads((path or REGISTRY_PATH).read_text(encoding="utf-8-sig"))
+    raw = []
+    for item in payload:
+        if isinstance(item, dict) and isinstance(item.get("value"), list):
+            raw.extend(item["value"])
+        else:
+            raw.append(item)
     records = [CandidateRecord(
         candidate_id=x["candidate_id"], strategy_id=x["strategy_id"], name=x["name"],
         category=x["category"], version=x["version"], status=x["status"],
@@ -27,3 +33,4 @@ def validate_registry(records):
             raise ValueError(f"unexpected strategy_id in MSNR registry: {record.strategy_id}")
         if record.metadata.get("executable") is True:
             raise ValueError(f"M1 entries must not be executable: {record.candidate_id}")
+

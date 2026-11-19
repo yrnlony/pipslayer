@@ -1,0 +1,5965 @@
+{
+  "dataset_id": "XAUUSD-H4-c1-c0b7e6744552e96c",
+  "timeframe": "H4",
+  "method": "msnr.av.close_line_turning_point.v0-provisional",
+  "equal_close_policy": "exclude_and_report",
+  "input_candles": 816,
+  "candles_used": 815,
+  "incomplete_candles_excluded": 1,
+  "A_count": 212,
+  "V_count": 213,
+  "structure_count": 425,
+  "recognition_note_count": 2,
+  "structures": [
+    {
+      "structure_id": "av-e0b565010a99a40c",
+      "kind": "V",
+      "price": 4568.55,
+      "anchor_timestamp": "2026-05-01T08:00:00+00:00",
+      "formed_at": "2026-05-01T12:00:00+00:00",
+      "recognised_at": "2026-05-01T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8bdae89796ae808d",
+      "kind": "A",
+      "price": 4638.95,
+      "anchor_timestamp": "2026-05-01T16:00:00+00:00",
+      "formed_at": "2026-05-01T20:00:00+00:00",
+      "recognised_at": "2026-05-02T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-99ea7b81d640859b",
+      "kind": "V",
+      "price": 4612.4,
+      "anchor_timestamp": "2026-05-01T20:00:00+00:00",
+      "formed_at": "2026-05-02T00:00:00+00:00",
+      "recognised_at": "2026-05-04T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-35fe617ac0ff4f6a",
+      "kind": "A",
+      "price": 4612.84,
+      "anchor_timestamp": "2026-05-04T00:00:00+00:00",
+      "formed_at": "2026-05-04T04:00:00+00:00",
+      "recognised_at": "2026-05-04T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-13439362d1745b51",
+      "kind": "V",
+      "price": 4510.59,
+      "anchor_timestamp": "2026-05-04T16:00:00+00:00",
+      "formed_at": "2026-05-04T20:00:00+00:00",
+      "recognised_at": "2026-05-05T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e0d048e6044c3183",
+      "kind": "A",
+      "price": 4564.51,
+      "anchor_timestamp": "2026-05-05T12:00:00+00:00",
+      "formed_at": "2026-05-05T16:00:00+00:00",
+      "recognised_at": "2026-05-05T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-39555e3fb6c78080",
+      "kind": "V",
+      "price": 4554.98,
+      "anchor_timestamp": "2026-05-05T20:00:00+00:00",
+      "formed_at": "2026-05-06T00:00:00+00:00",
+      "recognised_at": "2026-05-06T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4a96a3dbf0840a94",
+      "kind": "A",
+      "price": 4700.44,
+      "anchor_timestamp": "2026-05-06T08:00:00+00:00",
+      "formed_at": "2026-05-06T12:00:00+00:00",
+      "recognised_at": "2026-05-06T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-75f6ebb1ce1c99f4",
+      "kind": "V",
+      "price": 4682.94,
+      "anchor_timestamp": "2026-05-06T16:00:00+00:00",
+      "formed_at": "2026-05-06T20:00:00+00:00",
+      "recognised_at": "2026-05-07T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-896431c623275f06",
+      "kind": "A",
+      "price": 4689.35,
+      "anchor_timestamp": "2026-05-06T20:00:00+00:00",
+      "formed_at": "2026-05-07T00:00:00+00:00",
+      "recognised_at": "2026-05-07T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4332930f5c7593a2",
+      "kind": "V",
+      "price": 4688.65,
+      "anchor_timestamp": "2026-05-07T00:00:00+00:00",
+      "formed_at": "2026-05-07T04:00:00+00:00",
+      "recognised_at": "2026-05-07T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ff4d1bf3010e2ab2",
+      "kind": "A",
+      "price": 4750.06,
+      "anchor_timestamp": "2026-05-07T12:00:00+00:00",
+      "formed_at": "2026-05-07T16:00:00+00:00",
+      "recognised_at": "2026-05-07T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-67d3260229cc4cf7",
+      "kind": "V",
+      "price": 4686.98,
+      "anchor_timestamp": "2026-05-07T20:00:00+00:00",
+      "formed_at": "2026-05-08T00:00:00+00:00",
+      "recognised_at": "2026-05-08T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-091f169c7c3bf4a8",
+      "kind": "A",
+      "price": 4724.36,
+      "anchor_timestamp": "2026-05-08T12:00:00+00:00",
+      "formed_at": "2026-05-08T16:00:00+00:00",
+      "recognised_at": "2026-05-08T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d1360013823f24ae",
+      "kind": "V",
+      "price": 4712.58,
+      "anchor_timestamp": "2026-05-08T16:00:00+00:00",
+      "formed_at": "2026-05-08T20:00:00+00:00",
+      "recognised_at": "2026-05-09T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-9b3b69cfb0e751f1",
+      "kind": "A",
+      "price": 4713.94,
+      "anchor_timestamp": "2026-05-08T20:00:00+00:00",
+      "formed_at": "2026-05-09T00:00:00+00:00",
+      "recognised_at": "2026-05-11T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-033efcaa5e5e32c4",
+      "kind": "V",
+      "price": 4666.62,
+      "anchor_timestamp": "2026-05-11T08:00:00+00:00",
+      "formed_at": "2026-05-11T12:00:00+00:00",
+      "recognised_at": "2026-05-11T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-887c4a111d695ffb",
+      "kind": "A",
+      "price": 4749.25,
+      "anchor_timestamp": "2026-05-12T00:00:00+00:00",
+      "formed_at": "2026-05-12T04:00:00+00:00",
+      "recognised_at": "2026-05-12T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4cf2e525ed6fcfb6",
+      "kind": "V",
+      "price": 4703.2,
+      "anchor_timestamp": "2026-05-12T08:00:00+00:00",
+      "formed_at": "2026-05-12T12:00:00+00:00",
+      "recognised_at": "2026-05-12T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-cedf4424d960e6f3",
+      "kind": "A",
+      "price": 4705.55,
+      "anchor_timestamp": "2026-05-12T12:00:00+00:00",
+      "formed_at": "2026-05-12T16:00:00+00:00",
+      "recognised_at": "2026-05-12T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5c406a8a0f6acc22",
+      "kind": "V",
+      "price": 4671.16,
+      "anchor_timestamp": "2026-05-12T16:00:00+00:00",
+      "formed_at": "2026-05-12T20:00:00+00:00",
+      "recognised_at": "2026-05-13T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-cb04f0b7a54f636f",
+      "kind": "A",
+      "price": 4714.5,
+      "anchor_timestamp": "2026-05-13T00:00:00+00:00",
+      "formed_at": "2026-05-13T04:00:00+00:00",
+      "recognised_at": "2026-05-13T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-da5c095c312f89b7",
+      "kind": "V",
+      "price": 4699.52,
+      "anchor_timestamp": "2026-05-13T04:00:00+00:00",
+      "formed_at": "2026-05-13T08:00:00+00:00",
+      "recognised_at": "2026-05-13T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-61d1d5a0588cf2e4",
+      "kind": "A",
+      "price": 4700.45,
+      "anchor_timestamp": "2026-05-13T08:00:00+00:00",
+      "formed_at": "2026-05-13T12:00:00+00:00",
+      "recognised_at": "2026-05-13T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a02588da7ab37fda",
+      "kind": "V",
+      "price": 4683.55,
+      "anchor_timestamp": "2026-05-13T12:00:00+00:00",
+      "formed_at": "2026-05-13T16:00:00+00:00",
+      "recognised_at": "2026-05-13T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-cd8c3b9bf22a5676",
+      "kind": "A",
+      "price": 4695.66,
+      "anchor_timestamp": "2026-05-13T16:00:00+00:00",
+      "formed_at": "2026-05-13T20:00:00+00:00",
+      "recognised_at": "2026-05-14T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3f96c5e32692dbf5",
+      "kind": "V",
+      "price": 4687.26,
+      "anchor_timestamp": "2026-05-13T20:00:00+00:00",
+      "formed_at": "2026-05-14T00:00:00+00:00",
+      "recognised_at": "2026-05-14T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c86701c6a121ca0b",
+      "kind": "A",
+      "price": 4704.92,
+      "anchor_timestamp": "2026-05-14T00:00:00+00:00",
+      "formed_at": "2026-05-14T04:00:00+00:00",
+      "recognised_at": "2026-05-14T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c572d4b92ed4c1d5",
+      "kind": "V",
+      "price": 4693.1,
+      "anchor_timestamp": "2026-05-14T08:00:00+00:00",
+      "formed_at": "2026-05-14T12:00:00+00:00",
+      "recognised_at": "2026-05-14T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-34de2ee520b3ec1e",
+      "kind": "A",
+      "price": 4704.79,
+      "anchor_timestamp": "2026-05-14T12:00:00+00:00",
+      "formed_at": "2026-05-14T16:00:00+00:00",
+      "recognised_at": "2026-05-14T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9415fb4cfecf805c",
+      "kind": "V",
+      "price": 4515.83,
+      "anchor_timestamp": "2026-05-18T00:00:00+00:00",
+      "formed_at": "2026-05-18T04:00:00+00:00",
+      "recognised_at": "2026-05-18T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-dbe0d62f34b8fb98",
+      "kind": "A",
+      "price": 4571.6,
+      "anchor_timestamp": "2026-05-18T12:00:00+00:00",
+      "formed_at": "2026-05-18T16:00:00+00:00",
+      "recognised_at": "2026-05-18T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f6445776818ffe56",
+      "kind": "V",
+      "price": 4550.05,
+      "anchor_timestamp": "2026-05-18T16:00:00+00:00",
+      "formed_at": "2026-05-18T20:00:00+00:00",
+      "recognised_at": "2026-05-19T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e2dcb7bbbf0ae700",
+      "kind": "A",
+      "price": 4564.66,
+      "anchor_timestamp": "2026-05-18T20:00:00+00:00",
+      "formed_at": "2026-05-19T00:00:00+00:00",
+      "recognised_at": "2026-05-19T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-41fb52e9a22e3e06",
+      "kind": "V",
+      "price": 4542.09,
+      "anchor_timestamp": "2026-05-19T04:00:00+00:00",
+      "formed_at": "2026-05-19T08:00:00+00:00",
+      "recognised_at": "2026-05-19T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-549fdb51e6709d62",
+      "kind": "A",
+      "price": 4542.52,
+      "anchor_timestamp": "2026-05-19T08:00:00+00:00",
+      "formed_at": "2026-05-19T12:00:00+00:00",
+      "recognised_at": "2026-05-19T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-68754c636289a63b",
+      "kind": "V",
+      "price": 4480.31,
+      "anchor_timestamp": "2026-05-19T20:00:00+00:00",
+      "formed_at": "2026-05-20T00:00:00+00:00",
+      "recognised_at": "2026-05-20T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-be6c3d2739c950fe",
+      "kind": "A",
+      "price": 4500.76,
+      "anchor_timestamp": "2026-05-20T00:00:00+00:00",
+      "formed_at": "2026-05-20T04:00:00+00:00",
+      "recognised_at": "2026-05-20T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-97683a05dfc03657",
+      "kind": "V",
+      "price": 4461.8,
+      "anchor_timestamp": "2026-05-20T04:00:00+00:00",
+      "formed_at": "2026-05-20T08:00:00+00:00",
+      "recognised_at": "2026-05-20T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2926d79dfd616341",
+      "kind": "A",
+      "price": 4546.33,
+      "anchor_timestamp": "2026-05-21T00:00:00+00:00",
+      "formed_at": "2026-05-21T04:00:00+00:00",
+      "recognised_at": "2026-05-21T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-19c721206d943ef1",
+      "kind": "V",
+      "price": 4504.06,
+      "anchor_timestamp": "2026-05-21T12:00:00+00:00",
+      "formed_at": "2026-05-21T16:00:00+00:00",
+      "recognised_at": "2026-05-21T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-06fd2293cc6471a8",
+      "kind": "A",
+      "price": 4541.11,
+      "anchor_timestamp": "2026-05-21T20:00:00+00:00",
+      "formed_at": "2026-05-22T00:00:00+00:00",
+      "recognised_at": "2026-05-22T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9e70ea752820019c",
+      "kind": "V",
+      "price": 4526.46,
+      "anchor_timestamp": "2026-05-22T00:00:00+00:00",
+      "formed_at": "2026-05-22T04:00:00+00:00",
+      "recognised_at": "2026-05-22T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c66d14c7d416f4c5",
+      "kind": "A",
+      "price": 4527.08,
+      "anchor_timestamp": "2026-05-22T04:00:00+00:00",
+      "formed_at": "2026-05-22T08:00:00+00:00",
+      "recognised_at": "2026-05-22T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-43efba72030e4b80",
+      "kind": "V",
+      "price": 4521.73,
+      "anchor_timestamp": "2026-05-22T08:00:00+00:00",
+      "formed_at": "2026-05-22T12:00:00+00:00",
+      "recognised_at": "2026-05-22T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-dec24edd01a83300",
+      "kind": "A",
+      "price": 4527.65,
+      "anchor_timestamp": "2026-05-22T12:00:00+00:00",
+      "formed_at": "2026-05-22T16:00:00+00:00",
+      "recognised_at": "2026-05-22T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-65ee1010f376811f",
+      "kind": "V",
+      "price": 4506.25,
+      "anchor_timestamp": "2026-05-22T20:00:00+00:00",
+      "formed_at": "2026-05-23T00:00:00+00:00",
+      "recognised_at": "2026-05-25T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-aa1a92a525cfb347",
+      "kind": "A",
+      "price": 4570.07,
+      "anchor_timestamp": "2026-05-25T00:00:00+00:00",
+      "formed_at": "2026-05-25T04:00:00+00:00",
+      "recognised_at": "2026-05-25T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c39f8c338da45482",
+      "kind": "V",
+      "price": 4556.02,
+      "anchor_timestamp": "2026-05-25T08:00:00+00:00",
+      "formed_at": "2026-05-25T12:00:00+00:00",
+      "recognised_at": "2026-05-25T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-038f14178cbc4fe5",
+      "kind": "A",
+      "price": 4573.93,
+      "anchor_timestamp": "2026-05-25T16:00:00+00:00",
+      "formed_at": "2026-05-25T20:00:00+00:00",
+      "recognised_at": "2026-05-26T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d5cfb9e0c04957c4",
+      "kind": "V",
+      "price": 4504.43,
+      "anchor_timestamp": "2026-05-26T16:00:00+00:00",
+      "formed_at": "2026-05-26T20:00:00+00:00",
+      "recognised_at": "2026-05-27T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-24b61a00daa345c7",
+      "kind": "A",
+      "price": 4514.48,
+      "anchor_timestamp": "2026-05-27T00:00:00+00:00",
+      "formed_at": "2026-05-27T04:00:00+00:00",
+      "recognised_at": "2026-05-27T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-b8cfd5160d552458",
+      "kind": "V",
+      "price": 4438.32,
+      "anchor_timestamp": "2026-05-27T12:00:00+00:00",
+      "formed_at": "2026-05-27T16:00:00+00:00",
+      "recognised_at": "2026-05-27T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-10f85f386d21bc8f",
+      "kind": "A",
+      "price": 4458.02,
+      "anchor_timestamp": "2026-05-28T00:00:00+00:00",
+      "formed_at": "2026-05-28T04:00:00+00:00",
+      "recognised_at": "2026-05-28T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-dcf120c195699a82",
+      "kind": "V",
+      "price": 4371.78,
+      "anchor_timestamp": "2026-05-28T04:00:00+00:00",
+      "formed_at": "2026-05-28T08:00:00+00:00",
+      "recognised_at": "2026-05-28T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-41fa6bc3c6196e87",
+      "kind": "A",
+      "price": 4510.95,
+      "anchor_timestamp": "2026-05-28T16:00:00+00:00",
+      "formed_at": "2026-05-28T20:00:00+00:00",
+      "recognised_at": "2026-05-29T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8b6530f71d55776d",
+      "kind": "V",
+      "price": 4495.27,
+      "anchor_timestamp": "2026-05-28T20:00:00+00:00",
+      "formed_at": "2026-05-29T00:00:00+00:00",
+      "recognised_at": "2026-05-29T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d8a85de11f40dad8",
+      "kind": "A",
+      "price": 4566.75,
+      "anchor_timestamp": "2026-05-29T16:00:00+00:00",
+      "formed_at": "2026-05-29T20:00:00+00:00",
+      "recognised_at": "2026-05-30T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-25559c07701f16dd",
+      "kind": "V",
+      "price": 4539.05,
+      "anchor_timestamp": "2026-05-29T20:00:00+00:00",
+      "formed_at": "2026-05-30T00:00:00+00:00",
+      "recognised_at": "2026-06-01T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-70325b033dfe755a",
+      "kind": "A",
+      "price": 4540.48,
+      "anchor_timestamp": "2026-06-01T00:00:00+00:00",
+      "formed_at": "2026-06-01T04:00:00+00:00",
+      "recognised_at": "2026-06-01T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-06881c92d4a235e0",
+      "kind": "V",
+      "price": 4497.8,
+      "anchor_timestamp": "2026-06-01T08:00:00+00:00",
+      "formed_at": "2026-06-01T12:00:00+00:00",
+      "recognised_at": "2026-06-01T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-b291bf29135d403c",
+      "kind": "A",
+      "price": 4501.96,
+      "anchor_timestamp": "2026-06-01T12:00:00+00:00",
+      "formed_at": "2026-06-01T16:00:00+00:00",
+      "recognised_at": "2026-06-01T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-96a2f8021817b4e3",
+      "kind": "V",
+      "price": 4479.92,
+      "anchor_timestamp": "2026-06-01T16:00:00+00:00",
+      "formed_at": "2026-06-01T20:00:00+00:00",
+      "recognised_at": "2026-06-02T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-54ebee71853a64a7",
+      "kind": "A",
+      "price": 4525.51,
+      "anchor_timestamp": "2026-06-02T08:00:00+00:00",
+      "formed_at": "2026-06-02T12:00:00+00:00",
+      "recognised_at": "2026-06-02T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-66f732827ec36f6e",
+      "kind": "V",
+      "price": 4444.87,
+      "anchor_timestamp": "2026-06-03T08:00:00+00:00",
+      "formed_at": "2026-06-03T12:00:00+00:00",
+      "recognised_at": "2026-06-03T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-eb6f7280b0332fee",
+      "kind": "A",
+      "price": 4460.32,
+      "anchor_timestamp": "2026-06-03T12:00:00+00:00",
+      "formed_at": "2026-06-03T16:00:00+00:00",
+      "recognised_at": "2026-06-03T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-38ac011deb9fe196",
+      "kind": "V",
+      "price": 4432.25,
+      "anchor_timestamp": "2026-06-03T20:00:00+00:00",
+      "formed_at": "2026-06-04T00:00:00+00:00",
+      "recognised_at": "2026-06-04T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-28ab6bf0e12b86a5",
+      "kind": "A",
+      "price": 4480.12,
+      "anchor_timestamp": "2026-06-04T04:00:00+00:00",
+      "formed_at": "2026-06-04T08:00:00+00:00",
+      "recognised_at": "2026-06-04T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c1e7fcafe44a2786",
+      "kind": "V",
+      "price": 4462.19,
+      "anchor_timestamp": "2026-06-04T08:00:00+00:00",
+      "formed_at": "2026-06-04T12:00:00+00:00",
+      "recognised_at": "2026-06-04T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6ac593856d3eefad",
+      "kind": "A",
+      "price": 4504.01,
+      "anchor_timestamp": "2026-06-04T12:00:00+00:00",
+      "formed_at": "2026-06-04T16:00:00+00:00",
+      "recognised_at": "2026-06-04T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-783757383181c7b2",
+      "kind": "V",
+      "price": 4444.73,
+      "anchor_timestamp": "2026-06-05T04:00:00+00:00",
+      "formed_at": "2026-06-05T08:00:00+00:00",
+      "recognised_at": "2026-06-05T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0db40e292e2550a6",
+      "kind": "A",
+      "price": 4462.8,
+      "anchor_timestamp": "2026-06-05T08:00:00+00:00",
+      "formed_at": "2026-06-05T12:00:00+00:00",
+      "recognised_at": "2026-06-05T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3ccc0b64abbd7628",
+      "kind": "V",
+      "price": 4326.83,
+      "anchor_timestamp": "2026-06-05T20:00:00+00:00",
+      "formed_at": "2026-06-06T00:00:00+00:00",
+      "recognised_at": "2026-06-08T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3a91cc7d28d48f21",
+      "kind": "A",
+      "price": 4341.19,
+      "anchor_timestamp": "2026-06-08T00:00:00+00:00",
+      "formed_at": "2026-06-08T04:00:00+00:00",
+      "recognised_at": "2026-06-08T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-08490bad8ce72a04",
+      "kind": "V",
+      "price": 4288.55,
+      "anchor_timestamp": "2026-06-08T08:00:00+00:00",
+      "formed_at": "2026-06-08T12:00:00+00:00",
+      "recognised_at": "2026-06-08T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-37eb87b8bfe6e771",
+      "kind": "A",
+      "price": 4340.94,
+      "anchor_timestamp": "2026-06-08T16:00:00+00:00",
+      "formed_at": "2026-06-08T20:00:00+00:00",
+      "recognised_at": "2026-06-09T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-501b98f47f5648ab",
+      "kind": "V",
+      "price": 4319.87,
+      "anchor_timestamp": "2026-06-09T00:00:00+00:00",
+      "formed_at": "2026-06-09T04:00:00+00:00",
+      "recognised_at": "2026-06-09T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-eca87f7e5c896321",
+      "kind": "A",
+      "price": 4331.65,
+      "anchor_timestamp": "2026-06-09T04:00:00+00:00",
+      "formed_at": "2026-06-09T08:00:00+00:00",
+      "recognised_at": "2026-06-09T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-75fcb2dd85758a61",
+      "kind": "V",
+      "price": 4326.39,
+      "anchor_timestamp": "2026-06-09T08:00:00+00:00",
+      "formed_at": "2026-06-09T12:00:00+00:00",
+      "recognised_at": "2026-06-09T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1f3cb72d6bbfbca0",
+      "kind": "A",
+      "price": 4341.86,
+      "anchor_timestamp": "2026-06-09T12:00:00+00:00",
+      "formed_at": "2026-06-09T16:00:00+00:00",
+      "recognised_at": "2026-06-09T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-b8d19e367d4262ce",
+      "kind": "V",
+      "price": 4252.16,
+      "anchor_timestamp": "2026-06-09T16:00:00+00:00",
+      "formed_at": "2026-06-09T20:00:00+00:00",
+      "recognised_at": "2026-06-10T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-748341aae05931aa",
+      "kind": "A",
+      "price": 4258.78,
+      "anchor_timestamp": "2026-06-09T20:00:00+00:00",
+      "formed_at": "2026-06-10T00:00:00+00:00",
+      "recognised_at": "2026-06-10T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ddedbb1598849203",
+      "kind": "V",
+      "price": 4068.96,
+      "anchor_timestamp": "2026-06-10T20:00:00+00:00",
+      "formed_at": "2026-06-11T00:00:00+00:00",
+      "recognised_at": "2026-06-11T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e40dbd254ee23cbb",
+      "kind": "A",
+      "price": 4084.31,
+      "anchor_timestamp": "2026-06-11T08:00:00+00:00",
+      "formed_at": "2026-06-11T12:00:00+00:00",
+      "recognised_at": "2026-06-11T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1bbffefb8eeb159e",
+      "kind": "V",
+      "price": 4080.03,
+      "anchor_timestamp": "2026-06-11T16:00:00+00:00",
+      "formed_at": "2026-06-11T20:00:00+00:00",
+      "recognised_at": "2026-06-12T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-96fb0be2c3ff70d2",
+      "kind": "A",
+      "price": 4209.9,
+      "anchor_timestamp": "2026-06-11T20:00:00+00:00",
+      "formed_at": "2026-06-12T00:00:00+00:00",
+      "recognised_at": "2026-06-12T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9b0e76561df71c35",
+      "kind": "V",
+      "price": 4189.68,
+      "anchor_timestamp": "2026-06-12T04:00:00+00:00",
+      "formed_at": "2026-06-12T08:00:00+00:00",
+      "recognised_at": "2026-06-12T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-99e99e631e8438e5",
+      "kind": "A",
+      "price": 4219.67,
+      "anchor_timestamp": "2026-06-12T08:00:00+00:00",
+      "formed_at": "2026-06-12T12:00:00+00:00",
+      "recognised_at": "2026-06-12T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a83114f9f19eb50e",
+      "kind": "V",
+      "price": 4191.63,
+      "anchor_timestamp": "2026-06-12T12:00:00+00:00",
+      "formed_at": "2026-06-12T16:00:00+00:00",
+      "recognised_at": "2026-06-12T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-cc9184a9589c84cb",
+      "kind": "A",
+      "price": 4349.1,
+      "anchor_timestamp": "2026-06-15T12:00:00+00:00",
+      "formed_at": "2026-06-15T16:00:00+00:00",
+      "recognised_at": "2026-06-15T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fc845bbca401d183",
+      "kind": "V",
+      "price": 4307.36,
+      "anchor_timestamp": "2026-06-15T20:00:00+00:00",
+      "formed_at": "2026-06-16T00:00:00+00:00",
+      "recognised_at": "2026-06-16T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2b7b3310c694a1f7",
+      "kind": "A",
+      "price": 4354.83,
+      "anchor_timestamp": "2026-06-16T12:00:00+00:00",
+      "formed_at": "2026-06-16T16:00:00+00:00",
+      "recognised_at": "2026-06-16T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f503cc855a2594f0",
+      "kind": "V",
+      "price": 4329.74,
+      "anchor_timestamp": "2026-06-16T20:00:00+00:00",
+      "formed_at": "2026-06-17T00:00:00+00:00",
+      "recognised_at": "2026-06-17T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c31c569ee2cb3f12",
+      "kind": "A",
+      "price": 4337.21,
+      "anchor_timestamp": "2026-06-17T00:00:00+00:00",
+      "formed_at": "2026-06-17T04:00:00+00:00",
+      "recognised_at": "2026-06-17T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3bc90453614e2048",
+      "kind": "V",
+      "price": 4324.77,
+      "anchor_timestamp": "2026-06-17T08:00:00+00:00",
+      "formed_at": "2026-06-17T12:00:00+00:00",
+      "recognised_at": "2026-06-17T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-584aba76f32493ed",
+      "kind": "A",
+      "price": 4359.7,
+      "anchor_timestamp": "2026-06-17T16:00:00+00:00",
+      "formed_at": "2026-06-17T20:00:00+00:00",
+      "recognised_at": "2026-06-18T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a161398eb03e5ffe",
+      "kind": "V",
+      "price": 4255.42,
+      "anchor_timestamp": "2026-06-17T20:00:00+00:00",
+      "formed_at": "2026-06-18T00:00:00+00:00",
+      "recognised_at": "2026-06-18T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8ea124eb83eff564",
+      "kind": "A",
+      "price": 4316.12,
+      "anchor_timestamp": "2026-06-18T04:00:00+00:00",
+      "formed_at": "2026-06-18T08:00:00+00:00",
+      "recognised_at": "2026-06-18T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-44f3d7fb15d5436f",
+      "kind": "V",
+      "price": 4125.68,
+      "anchor_timestamp": "2026-06-19T04:00:00+00:00",
+      "formed_at": "2026-06-19T08:00:00+00:00",
+      "recognised_at": "2026-06-19T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1a85c57570215355",
+      "kind": "A",
+      "price": 4178.82,
+      "anchor_timestamp": "2026-06-19T12:00:00+00:00",
+      "formed_at": "2026-06-19T16:00:00+00:00",
+      "recognised_at": "2026-06-19T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7445c5694a876927",
+      "kind": "V",
+      "price": 4155.13,
+      "anchor_timestamp": "2026-06-19T16:00:00+00:00",
+      "formed_at": "2026-06-19T20:00:00+00:00",
+      "recognised_at": "2026-06-20T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-f53c748e7987752d",
+      "kind": "A",
+      "price": 4200.64,
+      "anchor_timestamp": "2026-06-22T00:00:00+00:00",
+      "formed_at": "2026-06-22T04:00:00+00:00",
+      "recognised_at": "2026-06-22T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6aa7488991331278",
+      "kind": "V",
+      "price": 4181.47,
+      "anchor_timestamp": "2026-06-22T04:00:00+00:00",
+      "formed_at": "2026-06-22T08:00:00+00:00",
+      "recognised_at": "2026-06-22T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-b602ce101e20668d",
+      "kind": "A",
+      "price": 4197.27,
+      "anchor_timestamp": "2026-06-22T08:00:00+00:00",
+      "formed_at": "2026-06-22T12:00:00+00:00",
+      "recognised_at": "2026-06-22T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6bf50f103ce2f856",
+      "kind": "V",
+      "price": 4189.42,
+      "anchor_timestamp": "2026-06-22T16:00:00+00:00",
+      "formed_at": "2026-06-22T20:00:00+00:00",
+      "recognised_at": "2026-06-23T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6348defc06419e4c",
+      "kind": "A",
+      "price": 4193.3,
+      "anchor_timestamp": "2026-06-23T00:00:00+00:00",
+      "formed_at": "2026-06-23T04:00:00+00:00",
+      "recognised_at": "2026-06-23T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f946dd69856f632d",
+      "kind": "V",
+      "price": 4105.07,
+      "anchor_timestamp": "2026-06-23T08:00:00+00:00",
+      "formed_at": "2026-06-23T12:00:00+00:00",
+      "recognised_at": "2026-06-23T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6ca9c17abf1288e3",
+      "kind": "A",
+      "price": 4134.29,
+      "anchor_timestamp": "2026-06-23T16:00:00+00:00",
+      "formed_at": "2026-06-23T20:00:00+00:00",
+      "recognised_at": "2026-06-24T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-96fd3432427bd441",
+      "kind": "V",
+      "price": 4063.21,
+      "anchor_timestamp": "2026-06-24T04:00:00+00:00",
+      "formed_at": "2026-06-24T08:00:00+00:00",
+      "recognised_at": "2026-06-24T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-85ac0b0285e1588c",
+      "kind": "A",
+      "price": 4076.05,
+      "anchor_timestamp": "2026-06-24T08:00:00+00:00",
+      "formed_at": "2026-06-24T12:00:00+00:00",
+      "recognised_at": "2026-06-24T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2d838273f2e4ba35",
+      "kind": "V",
+      "price": 3987.43,
+      "anchor_timestamp": "2026-06-24T12:00:00+00:00",
+      "formed_at": "2026-06-24T16:00:00+00:00",
+      "recognised_at": "2026-06-24T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-19291847a66576b4",
+      "kind": "A",
+      "price": 4006.58,
+      "anchor_timestamp": "2026-06-24T16:00:00+00:00",
+      "formed_at": "2026-06-24T20:00:00+00:00",
+      "recognised_at": "2026-06-25T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ece21adfc6e2e489",
+      "kind": "V",
+      "price": 3990.81,
+      "anchor_timestamp": "2026-06-25T00:00:00+00:00",
+      "formed_at": "2026-06-25T04:00:00+00:00",
+      "recognised_at": "2026-06-25T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0e0308a781950d99",
+      "kind": "A",
+      "price": 3995.56,
+      "anchor_timestamp": "2026-06-25T04:00:00+00:00",
+      "formed_at": "2026-06-25T08:00:00+00:00",
+      "recognised_at": "2026-06-25T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-def77c528758bcd5",
+      "kind": "V",
+      "price": 3988.86,
+      "anchor_timestamp": "2026-06-25T08:00:00+00:00",
+      "formed_at": "2026-06-25T12:00:00+00:00",
+      "recognised_at": "2026-06-25T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7d846185b736f982",
+      "kind": "A",
+      "price": 4028.67,
+      "anchor_timestamp": "2026-06-25T16:00:00+00:00",
+      "formed_at": "2026-06-25T20:00:00+00:00",
+      "recognised_at": "2026-06-26T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1fc6eab3165be3ea",
+      "kind": "V",
+      "price": 4010.5,
+      "anchor_timestamp": "2026-06-26T04:00:00+00:00",
+      "formed_at": "2026-06-26T08:00:00+00:00",
+      "recognised_at": "2026-06-26T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d7052107f6e60107",
+      "kind": "A",
+      "price": 4087.39,
+      "anchor_timestamp": "2026-06-26T20:00:00+00:00",
+      "formed_at": "2026-06-27T00:00:00+00:00",
+      "recognised_at": "2026-06-29T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e7760cf6e36d1734",
+      "kind": "V",
+      "price": 3985.54,
+      "anchor_timestamp": "2026-06-30T04:00:00+00:00",
+      "formed_at": "2026-06-30T08:00:00+00:00",
+      "recognised_at": "2026-06-30T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-866c751337b37b32",
+      "kind": "A",
+      "price": 4015.43,
+      "anchor_timestamp": "2026-06-30T08:00:00+00:00",
+      "formed_at": "2026-06-30T12:00:00+00:00",
+      "recognised_at": "2026-06-30T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-bf7071875eaf942e",
+      "kind": "V",
+      "price": 4010.2,
+      "anchor_timestamp": "2026-06-30T12:00:00+00:00",
+      "formed_at": "2026-06-30T16:00:00+00:00",
+      "recognised_at": "2026-06-30T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9b27fa2b20c59904",
+      "kind": "A",
+      "price": 4025.91,
+      "anchor_timestamp": "2026-06-30T16:00:00+00:00",
+      "formed_at": "2026-06-30T20:00:00+00:00",
+      "recognised_at": "2026-07-01T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f111ecffba599c0c",
+      "kind": "V",
+      "price": 3974.27,
+      "anchor_timestamp": "2026-07-01T08:00:00+00:00",
+      "formed_at": "2026-07-01T12:00:00+00:00",
+      "recognised_at": "2026-07-01T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-686687d6acd6c9a4",
+      "kind": "A",
+      "price": 4071.34,
+      "anchor_timestamp": "2026-07-01T16:00:00+00:00",
+      "formed_at": "2026-07-01T20:00:00+00:00",
+      "recognised_at": "2026-07-02T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-bfa189128be19a3d",
+      "kind": "V",
+      "price": 4030.36,
+      "anchor_timestamp": "2026-07-01T20:00:00+00:00",
+      "formed_at": "2026-07-02T00:00:00+00:00",
+      "recognised_at": "2026-07-02T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ef0adc3dce5cab60",
+      "kind": "A",
+      "price": 4181.11,
+      "anchor_timestamp": "2026-07-03T08:00:00+00:00",
+      "formed_at": "2026-07-03T12:00:00+00:00",
+      "recognised_at": "2026-07-03T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-68cabdbfb033c44b",
+      "kind": "V",
+      "price": 4174.65,
+      "anchor_timestamp": "2026-07-03T20:00:00+00:00",
+      "formed_at": "2026-07-04T00:00:00+00:00",
+      "recognised_at": "2026-07-06T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6378638b8d04f1c4",
+      "kind": "A",
+      "price": 4180.84,
+      "anchor_timestamp": "2026-07-06T00:00:00+00:00",
+      "formed_at": "2026-07-06T04:00:00+00:00",
+      "recognised_at": "2026-07-06T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-14bd37898b36892f",
+      "kind": "V",
+      "price": 4139.46,
+      "anchor_timestamp": "2026-07-06T12:00:00+00:00",
+      "formed_at": "2026-07-06T16:00:00+00:00",
+      "recognised_at": "2026-07-06T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c3475d3e0e87aead",
+      "kind": "A",
+      "price": 4162.78,
+      "anchor_timestamp": "2026-07-06T20:00:00+00:00",
+      "formed_at": "2026-07-07T00:00:00+00:00",
+      "recognised_at": "2026-07-07T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-87ad7b36a0541717",
+      "kind": "V",
+      "price": 4125.58,
+      "anchor_timestamp": "2026-07-07T08:00:00+00:00",
+      "formed_at": "2026-07-07T12:00:00+00:00",
+      "recognised_at": "2026-07-07T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8f81ade9bbab9b96",
+      "kind": "A",
+      "price": 4172.29,
+      "anchor_timestamp": "2026-07-07T12:00:00+00:00",
+      "formed_at": "2026-07-07T16:00:00+00:00",
+      "recognised_at": "2026-07-07T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-383495804d6f0d2b",
+      "kind": "V",
+      "price": 4105.28,
+      "anchor_timestamp": "2026-07-07T20:00:00+00:00",
+      "formed_at": "2026-07-08T00:00:00+00:00",
+      "recognised_at": "2026-07-08T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3d3042a5f7c11a5f",
+      "kind": "A",
+      "price": 4125.2,
+      "anchor_timestamp": "2026-07-08T04:00:00+00:00",
+      "formed_at": "2026-07-08T08:00:00+00:00",
+      "recognised_at": "2026-07-08T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9f624b4136e899b0",
+      "kind": "V",
+      "price": 4056.02,
+      "anchor_timestamp": "2026-07-08T08:00:00+00:00",
+      "formed_at": "2026-07-08T12:00:00+00:00",
+      "recognised_at": "2026-07-08T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9bc26da59a8765a7",
+      "kind": "A",
+      "price": 4071.96,
+      "anchor_timestamp": "2026-07-08T12:00:00+00:00",
+      "formed_at": "2026-07-08T16:00:00+00:00",
+      "recognised_at": "2026-07-08T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f45251b07da29e5b",
+      "kind": "V",
+      "price": 4063.61,
+      "anchor_timestamp": "2026-07-08T16:00:00+00:00",
+      "formed_at": "2026-07-08T20:00:00+00:00",
+      "recognised_at": "2026-07-09T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5954524d309a81f5",
+      "kind": "A",
+      "price": 4075.99,
+      "anchor_timestamp": "2026-07-08T20:00:00+00:00",
+      "formed_at": "2026-07-09T00:00:00+00:00",
+      "recognised_at": "2026-07-09T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6a0101ad1e4cb32a",
+      "kind": "V",
+      "price": 4064.98,
+      "anchor_timestamp": "2026-07-09T04:00:00+00:00",
+      "formed_at": "2026-07-09T08:00:00+00:00",
+      "recognised_at": "2026-07-09T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-631e683e52c2bd8e",
+      "kind": "A",
+      "price": 4128.28,
+      "anchor_timestamp": "2026-07-09T16:00:00+00:00",
+      "formed_at": "2026-07-09T20:00:00+00:00",
+      "recognised_at": "2026-07-10T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f311e19a748ecb25",
+      "kind": "V",
+      "price": 4122.62,
+      "anchor_timestamp": "2026-07-09T20:00:00+00:00",
+      "formed_at": "2026-07-10T00:00:00+00:00",
+      "recognised_at": "2026-07-10T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3499f15e8cf8fe1b",
+      "kind": "A",
+      "price": 4125.68,
+      "anchor_timestamp": "2026-07-10T00:00:00+00:00",
+      "formed_at": "2026-07-10T04:00:00+00:00",
+      "recognised_at": "2026-07-10T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5c9025ffae7db1b7",
+      "kind": "V",
+      "price": 4096.35,
+      "anchor_timestamp": "2026-07-10T08:00:00+00:00",
+      "formed_at": "2026-07-10T12:00:00+00:00",
+      "recognised_at": "2026-07-10T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-bcd8ae90871e3c8e",
+      "kind": "A",
+      "price": 4118.34,
+      "anchor_timestamp": "2026-07-10T20:00:00+00:00",
+      "formed_at": "2026-07-11T00:00:00+00:00",
+      "recognised_at": "2026-07-13T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d640ad9780790a91",
+      "kind": "V",
+      "price": 4058.52,
+      "anchor_timestamp": "2026-07-13T04:00:00+00:00",
+      "formed_at": "2026-07-13T08:00:00+00:00",
+      "recognised_at": "2026-07-13T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fa17585fc56d7b53",
+      "kind": "A",
+      "price": 4074.63,
+      "anchor_timestamp": "2026-07-13T08:00:00+00:00",
+      "formed_at": "2026-07-13T12:00:00+00:00",
+      "recognised_at": "2026-07-13T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3059f5c6e36d489a",
+      "kind": "V",
+      "price": 3992.97,
+      "anchor_timestamp": "2026-07-13T16:00:00+00:00",
+      "formed_at": "2026-07-13T20:00:00+00:00",
+      "recognised_at": "2026-07-14T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-06ee67a16ce76ad1",
+      "kind": "A",
+      "price": 4019.1,
+      "anchor_timestamp": "2026-07-14T04:00:00+00:00",
+      "formed_at": "2026-07-14T08:00:00+00:00",
+      "recognised_at": "2026-07-14T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d75824aeb5e7b0da",
+      "kind": "V",
+      "price": 4016.51,
+      "anchor_timestamp": "2026-07-14T08:00:00+00:00",
+      "formed_at": "2026-07-14T12:00:00+00:00",
+      "recognised_at": "2026-07-14T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-016664c87b0dda99",
+      "kind": "A",
+      "price": 4076.08,
+      "anchor_timestamp": "2026-07-14T12:00:00+00:00",
+      "formed_at": "2026-07-14T16:00:00+00:00",
+      "recognised_at": "2026-07-14T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fd98eeceb24a6930",
+      "kind": "V",
+      "price": 4051.23,
+      "anchor_timestamp": "2026-07-14T20:00:00+00:00",
+      "formed_at": "2026-07-15T00:00:00+00:00",
+      "recognised_at": "2026-07-15T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0d670c00947be605",
+      "kind": "A",
+      "price": 4057.63,
+      "anchor_timestamp": "2026-07-15T00:00:00+00:00",
+      "formed_at": "2026-07-15T04:00:00+00:00",
+      "recognised_at": "2026-07-15T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-04d968056bf68faa",
+      "kind": "V",
+      "price": 4031.26,
+      "anchor_timestamp": "2026-07-15T08:00:00+00:00",
+      "formed_at": "2026-07-15T12:00:00+00:00",
+      "recognised_at": "2026-07-15T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ef6de02aef63b65a",
+      "kind": "A",
+      "price": 4067.92,
+      "anchor_timestamp": "2026-07-15T12:00:00+00:00",
+      "formed_at": "2026-07-15T16:00:00+00:00",
+      "recognised_at": "2026-07-15T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7b47fb2a30c93202",
+      "kind": "V",
+      "price": 4033.69,
+      "anchor_timestamp": "2026-07-15T16:00:00+00:00",
+      "formed_at": "2026-07-15T20:00:00+00:00",
+      "recognised_at": "2026-07-16T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a1894a3d3ff61eb8",
+      "kind": "A",
+      "price": 4058.53,
+      "anchor_timestamp": "2026-07-15T20:00:00+00:00",
+      "formed_at": "2026-07-16T00:00:00+00:00",
+      "recognised_at": "2026-07-16T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e82d66efba85c113",
+      "kind": "V",
+      "price": 4031.67,
+      "anchor_timestamp": "2026-07-16T04:00:00+00:00",
+      "formed_at": "2026-07-16T08:00:00+00:00",
+      "recognised_at": "2026-07-16T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-b465e872ab887592",
+      "kind": "A",
+      "price": 4036.61,
+      "anchor_timestamp": "2026-07-16T08:00:00+00:00",
+      "formed_at": "2026-07-16T12:00:00+00:00",
+      "recognised_at": "2026-07-16T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f541bca0bb8f3ec9",
+      "kind": "V",
+      "price": 3974.57,
+      "anchor_timestamp": "2026-07-16T20:00:00+00:00",
+      "formed_at": "2026-07-17T00:00:00+00:00",
+      "recognised_at": "2026-07-17T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2ed474579aba67f2",
+      "kind": "A",
+      "price": 3990.42,
+      "anchor_timestamp": "2026-07-17T00:00:00+00:00",
+      "formed_at": "2026-07-17T04:00:00+00:00",
+      "recognised_at": "2026-07-17T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fa0090e63ab7335e",
+      "kind": "V",
+      "price": 3982.54,
+      "anchor_timestamp": "2026-07-17T04:00:00+00:00",
+      "formed_at": "2026-07-17T08:00:00+00:00",
+      "recognised_at": "2026-07-17T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6a8a572a58558b58",
+      "kind": "A",
+      "price": 3992.65,
+      "anchor_timestamp": "2026-07-17T08:00:00+00:00",
+      "formed_at": "2026-07-17T12:00:00+00:00",
+      "recognised_at": "2026-07-17T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7a53d48a397fcce9",
+      "kind": "V",
+      "price": 3965.15,
+      "anchor_timestamp": "2026-07-17T12:00:00+00:00",
+      "formed_at": "2026-07-17T16:00:00+00:00",
+      "recognised_at": "2026-07-17T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e7d4794bf8630cc2",
+      "kind": "A",
+      "price": 4015.85,
+      "anchor_timestamp": "2026-07-17T20:00:00+00:00",
+      "formed_at": "2026-07-18T00:00:00+00:00",
+      "recognised_at": "2026-07-20T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3806cc9fe557637d",
+      "kind": "V",
+      "price": 4009.71,
+      "anchor_timestamp": "2026-07-20T00:00:00+00:00",
+      "formed_at": "2026-07-20T04:00:00+00:00",
+      "recognised_at": "2026-07-20T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0ad20bb570a980ed",
+      "kind": "A",
+      "price": 4018.9,
+      "anchor_timestamp": "2026-07-20T04:00:00+00:00",
+      "formed_at": "2026-07-20T08:00:00+00:00",
+      "recognised_at": "2026-07-20T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a3397d3e8e82c659",
+      "kind": "V",
+      "price": 4007.9,
+      "anchor_timestamp": "2026-07-20T12:00:00+00:00",
+      "formed_at": "2026-07-20T16:00:00+00:00",
+      "recognised_at": "2026-07-20T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5143b6731bef09ce",
+      "kind": "A",
+      "price": 4009.77,
+      "anchor_timestamp": "2026-07-20T16:00:00+00:00",
+      "formed_at": "2026-07-20T20:00:00+00:00",
+      "recognised_at": "2026-07-21T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ed0acbb6227cf6b5",
+      "kind": "V",
+      "price": 4007.09,
+      "anchor_timestamp": "2026-07-20T20:00:00+00:00",
+      "formed_at": "2026-07-21T00:00:00+00:00",
+      "recognised_at": "2026-07-21T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d786947da8d24407",
+      "kind": "A",
+      "price": 4063.13,
+      "anchor_timestamp": "2026-07-21T08:00:00+00:00",
+      "formed_at": "2026-07-21T12:00:00+00:00",
+      "recognised_at": "2026-07-21T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-64d657df7cf9871f",
+      "kind": "V",
+      "price": 4054.1,
+      "anchor_timestamp": "2026-07-21T12:00:00+00:00",
+      "formed_at": "2026-07-21T16:00:00+00:00",
+      "recognised_at": "2026-07-21T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-99ee6d28590995d4",
+      "kind": "A",
+      "price": 4127.25,
+      "anchor_timestamp": "2026-07-22T04:00:00+00:00",
+      "formed_at": "2026-07-22T08:00:00+00:00",
+      "recognised_at": "2026-07-22T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7f2010ebd1111000",
+      "kind": "V",
+      "price": 4113.01,
+      "anchor_timestamp": "2026-07-22T12:00:00+00:00",
+      "formed_at": "2026-07-22T16:00:00+00:00",
+      "recognised_at": "2026-07-22T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-eb0094c44658468a",
+      "kind": "A",
+      "price": 4146.85,
+      "anchor_timestamp": "2026-07-22T16:00:00+00:00",
+      "formed_at": "2026-07-22T20:00:00+00:00",
+      "recognised_at": "2026-07-23T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c8f41ad3592c2fd0",
+      "kind": "V",
+      "price": 4128.47,
+      "anchor_timestamp": "2026-07-22T20:00:00+00:00",
+      "formed_at": "2026-07-23T00:00:00+00:00",
+      "recognised_at": "2026-07-23T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-61a0d20331a9200a",
+      "kind": "A",
+      "price": 4131.97,
+      "anchor_timestamp": "2026-07-23T00:00:00+00:00",
+      "formed_at": "2026-07-23T04:00:00+00:00",
+      "recognised_at": "2026-07-23T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-79c7b83216604f29",
+      "kind": "V",
+      "price": 4047.38,
+      "anchor_timestamp": "2026-07-23T20:00:00+00:00",
+      "formed_at": "2026-07-24T00:00:00+00:00",
+      "recognised_at": "2026-07-24T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c757a9d7fab7ce23",
+      "kind": "A",
+      "price": 4049.6,
+      "anchor_timestamp": "2026-07-24T00:00:00+00:00",
+      "formed_at": "2026-07-24T04:00:00+00:00",
+      "recognised_at": "2026-07-24T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-dfc1375ed27c2460",
+      "kind": "V",
+      "price": 4026.75,
+      "anchor_timestamp": "2026-07-24T04:00:00+00:00",
+      "formed_at": "2026-07-24T08:00:00+00:00",
+      "recognised_at": "2026-07-24T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6f8eccdfa3eba146",
+      "kind": "A",
+      "price": 4057.35,
+      "anchor_timestamp": "2026-07-24T08:00:00+00:00",
+      "formed_at": "2026-07-24T12:00:00+00:00",
+      "recognised_at": "2026-07-24T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1a4a53f93087e4fa",
+      "kind": "V",
+      "price": 4055.97,
+      "anchor_timestamp": "2026-07-24T12:00:00+00:00",
+      "formed_at": "2026-07-24T16:00:00+00:00",
+      "recognised_at": "2026-07-24T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4ab810e03632ae8f",
+      "kind": "A",
+      "price": 4066.62,
+      "anchor_timestamp": "2026-07-24T16:00:00+00:00",
+      "formed_at": "2026-07-24T20:00:00+00:00",
+      "recognised_at": "2026-07-25T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-765ac53b5bf10d98",
+      "kind": "V",
+      "price": 4050.97,
+      "anchor_timestamp": "2026-07-24T20:00:00+00:00",
+      "formed_at": "2026-07-25T00:00:00+00:00",
+      "recognised_at": "2026-07-27T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9a3d5fd3fe3b1c02",
+      "kind": "A",
+      "price": 4100.7,
+      "anchor_timestamp": "2026-07-27T00:00:00+00:00",
+      "formed_at": "2026-07-27T04:00:00+00:00",
+      "recognised_at": "2026-07-27T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fafd3bd26aa9ccc0",
+      "kind": "V",
+      "price": 4089.45,
+      "anchor_timestamp": "2026-07-27T04:00:00+00:00",
+      "formed_at": "2026-07-27T08:00:00+00:00",
+      "recognised_at": "2026-07-27T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6a13bc7a4fbb1a68",
+      "kind": "A",
+      "price": 4095.24,
+      "anchor_timestamp": "2026-07-27T08:00:00+00:00",
+      "formed_at": "2026-07-27T12:00:00+00:00",
+      "recognised_at": "2026-07-27T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6bc71f0686df60c1",
+      "kind": "V",
+      "price": 4041.55,
+      "anchor_timestamp": "2026-07-28T04:00:00+00:00",
+      "formed_at": "2026-07-28T08:00:00+00:00",
+      "recognised_at": "2026-07-28T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-972db81bf9663344",
+      "kind": "A",
+      "price": 4044.96,
+      "anchor_timestamp": "2026-07-28T08:00:00+00:00",
+      "formed_at": "2026-07-28T12:00:00+00:00",
+      "recognised_at": "2026-07-28T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-160743de638ac366",
+      "kind": "V",
+      "price": 4028.88,
+      "anchor_timestamp": "2026-07-28T12:00:00+00:00",
+      "formed_at": "2026-07-28T16:00:00+00:00",
+      "recognised_at": "2026-07-28T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2f8e62c13dc6c014",
+      "kind": "A",
+      "price": 4037.26,
+      "anchor_timestamp": "2026-07-28T16:00:00+00:00",
+      "formed_at": "2026-07-28T20:00:00+00:00",
+      "recognised_at": "2026-07-29T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fae8e3fc5bb3cef1",
+      "kind": "V",
+      "price": 4021.49,
+      "anchor_timestamp": "2026-07-29T00:00:00+00:00",
+      "formed_at": "2026-07-29T04:00:00+00:00",
+      "recognised_at": "2026-07-29T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4282c59ea677f6ea",
+      "kind": "A",
+      "price": 4037.55,
+      "anchor_timestamp": "2026-07-29T08:00:00+00:00",
+      "formed_at": "2026-07-29T12:00:00+00:00",
+      "recognised_at": "2026-07-29T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7175753df23e82c3",
+      "kind": "V",
+      "price": 4022.19,
+      "anchor_timestamp": "2026-07-29T12:00:00+00:00",
+      "formed_at": "2026-07-29T16:00:00+00:00",
+      "recognised_at": "2026-07-29T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5cdafa46e34edd4c",
+      "kind": "A",
+      "price": 4071.99,
+      "anchor_timestamp": "2026-07-30T00:00:00+00:00",
+      "formed_at": "2026-07-30T04:00:00+00:00",
+      "recognised_at": "2026-07-30T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0516cf88459354fa",
+      "kind": "V",
+      "price": 4046.72,
+      "anchor_timestamp": "2026-07-30T04:00:00+00:00",
+      "formed_at": "2026-07-30T08:00:00+00:00",
+      "recognised_at": "2026-07-30T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c27d5bb333bbaec3",
+      "kind": "A",
+      "price": 4110.7,
+      "anchor_timestamp": "2026-07-30T16:00:00+00:00",
+      "formed_at": "2026-07-30T20:00:00+00:00",
+      "recognised_at": "2026-07-31T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d36bea4d088bc145",
+      "kind": "V",
+      "price": 4040.19,
+      "anchor_timestamp": "2026-07-31T12:00:00+00:00",
+      "formed_at": "2026-07-31T16:00:00+00:00",
+      "recognised_at": "2026-07-31T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fbed58259ac9409f",
+      "kind": "A",
+      "price": 4043.08,
+      "anchor_timestamp": "2026-07-31T16:00:00+00:00",
+      "formed_at": "2026-07-31T20:00:00+00:00",
+      "recognised_at": "2026-08-01T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-dd0b9facb7597969",
+      "kind": "V",
+      "price": 4042.38,
+      "anchor_timestamp": "2026-07-31T20:00:00+00:00",
+      "formed_at": "2026-08-01T00:00:00+00:00",
+      "recognised_at": "2026-08-03T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-108eab3de9663993",
+      "kind": "A",
+      "price": 4063.98,
+      "anchor_timestamp": "2026-08-03T04:00:00+00:00",
+      "formed_at": "2026-08-03T08:00:00+00:00",
+      "recognised_at": "2026-08-03T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-68185594b919cf10",
+      "kind": "V",
+      "price": 4036.69,
+      "anchor_timestamp": "2026-08-03T16:00:00+00:00",
+      "formed_at": "2026-08-03T20:00:00+00:00",
+      "recognised_at": "2026-08-04T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e02512f003a3ad51",
+      "kind": "A",
+      "price": 4053.34,
+      "anchor_timestamp": "2026-08-03T20:00:00+00:00",
+      "formed_at": "2026-08-04T00:00:00+00:00",
+      "recognised_at": "2026-08-04T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3c5331004bee7e05",
+      "kind": "V",
+      "price": 4049.09,
+      "anchor_timestamp": "2026-08-04T00:00:00+00:00",
+      "formed_at": "2026-08-04T04:00:00+00:00",
+      "recognised_at": "2026-08-04T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ba82edbd7efb09a4",
+      "kind": "A",
+      "price": 4063.82,
+      "anchor_timestamp": "2026-08-04T04:00:00+00:00",
+      "formed_at": "2026-08-04T08:00:00+00:00",
+      "recognised_at": "2026-08-04T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a0ca39f144ab10bf",
+      "kind": "V",
+      "price": 4054.77,
+      "anchor_timestamp": "2026-08-04T08:00:00+00:00",
+      "formed_at": "2026-08-04T12:00:00+00:00",
+      "recognised_at": "2026-08-04T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-934b7a64e7045454",
+      "kind": "A",
+      "price": 4093.51,
+      "anchor_timestamp": "2026-08-04T16:00:00+00:00",
+      "formed_at": "2026-08-04T20:00:00+00:00",
+      "recognised_at": "2026-08-05T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-52fdd1fccfe9b779",
+      "kind": "V",
+      "price": 4076.25,
+      "anchor_timestamp": "2026-08-04T20:00:00+00:00",
+      "formed_at": "2026-08-05T00:00:00+00:00",
+      "recognised_at": "2026-08-05T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9d0d3a48549a2dd3",
+      "kind": "A",
+      "price": 4294.54,
+      "anchor_timestamp": "2026-08-06T00:00:00+00:00",
+      "formed_at": "2026-08-06T04:00:00+00:00",
+      "recognised_at": "2026-08-06T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4cb65ba7bf8dc0d6",
+      "kind": "V",
+      "price": 4262.0,
+      "anchor_timestamp": "2026-08-06T04:00:00+00:00",
+      "formed_at": "2026-08-06T08:00:00+00:00",
+      "recognised_at": "2026-08-06T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a345b0ac8b1a8019",
+      "kind": "A",
+      "price": 4277.84,
+      "anchor_timestamp": "2026-08-06T08:00:00+00:00",
+      "formed_at": "2026-08-06T12:00:00+00:00",
+      "recognised_at": "2026-08-06T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4f4938d416433e13",
+      "kind": "V",
+      "price": 4232.75,
+      "anchor_timestamp": "2026-08-07T00:00:00+00:00",
+      "formed_at": "2026-08-07T04:00:00+00:00",
+      "recognised_at": "2026-08-07T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2ac43a51b9ada464",
+      "kind": "A",
+      "price": 4361.06,
+      "anchor_timestamp": "2026-08-07T12:00:00+00:00",
+      "formed_at": "2026-08-07T16:00:00+00:00",
+      "recognised_at": "2026-08-07T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f728181e4b4a3e2f",
+      "kind": "V",
+      "price": 4329.04,
+      "anchor_timestamp": "2026-08-07T16:00:00+00:00",
+      "formed_at": "2026-08-07T20:00:00+00:00",
+      "recognised_at": "2026-08-08T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-6fbf0b82b2664ddd",
+      "kind": "A",
+      "price": 4340.59,
+      "anchor_timestamp": "2026-08-07T20:00:00+00:00",
+      "formed_at": "2026-08-08T00:00:00+00:00",
+      "recognised_at": "2026-08-10T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-df41d5b04ac8a8ca",
+      "kind": "V",
+      "price": 4333.44,
+      "anchor_timestamp": "2026-08-10T00:00:00+00:00",
+      "formed_at": "2026-08-10T04:00:00+00:00",
+      "recognised_at": "2026-08-10T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d66221b5eff3c6ea",
+      "kind": "A",
+      "price": 4346.55,
+      "anchor_timestamp": "2026-08-10T08:00:00+00:00",
+      "formed_at": "2026-08-10T12:00:00+00:00",
+      "recognised_at": "2026-08-10T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c2bb065e258532f4",
+      "kind": "V",
+      "price": 4332.55,
+      "anchor_timestamp": "2026-08-10T12:00:00+00:00",
+      "formed_at": "2026-08-10T16:00:00+00:00",
+      "recognised_at": "2026-08-10T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c5a96439b2e85be0",
+      "kind": "A",
+      "price": 4409.33,
+      "anchor_timestamp": "2026-08-11T00:00:00+00:00",
+      "formed_at": "2026-08-11T04:00:00+00:00",
+      "recognised_at": "2026-08-11T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a52e828d78216204",
+      "kind": "V",
+      "price": 4368.75,
+      "anchor_timestamp": "2026-08-11T08:00:00+00:00",
+      "formed_at": "2026-08-11T12:00:00+00:00",
+      "recognised_at": "2026-08-11T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-99d2878d7726a59a",
+      "kind": "A",
+      "price": 4391.89,
+      "anchor_timestamp": "2026-08-11T12:00:00+00:00",
+      "formed_at": "2026-08-11T16:00:00+00:00",
+      "recognised_at": "2026-08-11T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7d42b120f838f66e",
+      "kind": "V",
+      "price": 4366.33,
+      "anchor_timestamp": "2026-08-11T20:00:00+00:00",
+      "formed_at": "2026-08-12T00:00:00+00:00",
+      "recognised_at": "2026-08-12T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2fbe012b26049503",
+      "kind": "A",
+      "price": 4436.87,
+      "anchor_timestamp": "2026-08-12T12:00:00+00:00",
+      "formed_at": "2026-08-12T16:00:00+00:00",
+      "recognised_at": "2026-08-12T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0023bbebc7fc4280",
+      "kind": "V",
+      "price": 4401.29,
+      "anchor_timestamp": "2026-08-12T16:00:00+00:00",
+      "formed_at": "2026-08-12T20:00:00+00:00",
+      "recognised_at": "2026-08-13T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a81972d6b37a19ab",
+      "kind": "A",
+      "price": 4427.27,
+      "anchor_timestamp": "2026-08-13T00:00:00+00:00",
+      "formed_at": "2026-08-13T04:00:00+00:00",
+      "recognised_at": "2026-08-13T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7b7e37e2cbf341d7",
+      "kind": "V",
+      "price": 4375.19,
+      "anchor_timestamp": "2026-08-13T08:00:00+00:00",
+      "formed_at": "2026-08-13T12:00:00+00:00",
+      "recognised_at": "2026-08-13T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-345db19dce97de18",
+      "kind": "A",
+      "price": 4401.41,
+      "anchor_timestamp": "2026-08-13T12:00:00+00:00",
+      "formed_at": "2026-08-13T16:00:00+00:00",
+      "recognised_at": "2026-08-13T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ad0f88258bc53489",
+      "kind": "V",
+      "price": 4326.71,
+      "anchor_timestamp": "2026-08-14T04:00:00+00:00",
+      "formed_at": "2026-08-14T08:00:00+00:00",
+      "recognised_at": "2026-08-14T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8ea07a9375db432f",
+      "kind": "A",
+      "price": 4385.96,
+      "anchor_timestamp": "2026-08-14T16:00:00+00:00",
+      "formed_at": "2026-08-14T20:00:00+00:00",
+      "recognised_at": "2026-08-15T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-5c58a254bf52eacb",
+      "kind": "V",
+      "price": 4374.38,
+      "anchor_timestamp": "2026-08-14T20:00:00+00:00",
+      "formed_at": "2026-08-15T00:00:00+00:00",
+      "recognised_at": "2026-08-17T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f55f9e161ab351b8",
+      "kind": "A",
+      "price": 4400.51,
+      "anchor_timestamp": "2026-08-17T00:00:00+00:00",
+      "formed_at": "2026-08-17T04:00:00+00:00",
+      "recognised_at": "2026-08-17T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fb71da57f6af28a4",
+      "kind": "V",
+      "price": 4390.46,
+      "anchor_timestamp": "2026-08-17T04:00:00+00:00",
+      "formed_at": "2026-08-17T08:00:00+00:00",
+      "recognised_at": "2026-08-17T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4ed8040d08b16ec1",
+      "kind": "A",
+      "price": 4394.7,
+      "anchor_timestamp": "2026-08-17T08:00:00+00:00",
+      "formed_at": "2026-08-17T12:00:00+00:00",
+      "recognised_at": "2026-08-17T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3471a7e4d11adb84",
+      "kind": "V",
+      "price": 4384.76,
+      "anchor_timestamp": "2026-08-17T12:00:00+00:00",
+      "formed_at": "2026-08-17T16:00:00+00:00",
+      "recognised_at": "2026-08-17T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4792e3fe83de25cc",
+      "kind": "A",
+      "price": 4424.2,
+      "anchor_timestamp": "2026-08-17T16:00:00+00:00",
+      "formed_at": "2026-08-17T20:00:00+00:00",
+      "recognised_at": "2026-08-18T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-425478211894f191",
+      "kind": "V",
+      "price": 4415.07,
+      "anchor_timestamp": "2026-08-17T20:00:00+00:00",
+      "formed_at": "2026-08-18T00:00:00+00:00",
+      "recognised_at": "2026-08-18T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8e1d0e007fdd37bd",
+      "kind": "A",
+      "price": 4434.55,
+      "anchor_timestamp": "2026-08-18T00:00:00+00:00",
+      "formed_at": "2026-08-18T04:00:00+00:00",
+      "recognised_at": "2026-08-18T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5d6d77b296cba3c8",
+      "kind": "V",
+      "price": 4393.12,
+      "anchor_timestamp": "2026-08-18T08:00:00+00:00",
+      "formed_at": "2026-08-18T12:00:00+00:00",
+      "recognised_at": "2026-08-18T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8b6a64f90196339d",
+      "kind": "A",
+      "price": 4394.13,
+      "anchor_timestamp": "2026-08-18T12:00:00+00:00",
+      "formed_at": "2026-08-18T16:00:00+00:00",
+      "recognised_at": "2026-08-18T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-59c504aa87455d1a",
+      "kind": "V",
+      "price": 4333.08,
+      "anchor_timestamp": "2026-08-18T20:00:00+00:00",
+      "formed_at": "2026-08-19T00:00:00+00:00",
+      "recognised_at": "2026-08-19T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fb3d2294e4794010",
+      "kind": "A",
+      "price": 4521.68,
+      "anchor_timestamp": "2026-08-19T20:00:00+00:00",
+      "formed_at": "2026-08-20T00:00:00+00:00",
+      "recognised_at": "2026-08-20T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4d053a2e8c18edf8",
+      "kind": "V",
+      "price": 4488.59,
+      "anchor_timestamp": "2026-08-20T04:00:00+00:00",
+      "formed_at": "2026-08-20T08:00:00+00:00",
+      "recognised_at": "2026-08-20T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ff75f179496cbdda",
+      "kind": "A",
+      "price": 4489.43,
+      "anchor_timestamp": "2026-08-20T08:00:00+00:00",
+      "formed_at": "2026-08-20T12:00:00+00:00",
+      "recognised_at": "2026-08-20T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a4c2b134f9dc136c",
+      "kind": "V",
+      "price": 4474.89,
+      "anchor_timestamp": "2026-08-20T12:00:00+00:00",
+      "formed_at": "2026-08-20T16:00:00+00:00",
+      "recognised_at": "2026-08-20T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-03388fb3bdf07506",
+      "kind": "A",
+      "price": 4517.5,
+      "anchor_timestamp": "2026-08-20T20:00:00+00:00",
+      "formed_at": "2026-08-21T00:00:00+00:00",
+      "recognised_at": "2026-08-21T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3e54c3b41031705c",
+      "kind": "V",
+      "price": 4510.51,
+      "anchor_timestamp": "2026-08-21T00:00:00+00:00",
+      "formed_at": "2026-08-21T04:00:00+00:00",
+      "recognised_at": "2026-08-21T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-baad080eac79a3e5",
+      "kind": "A",
+      "price": 4583.84,
+      "anchor_timestamp": "2026-08-21T08:00:00+00:00",
+      "formed_at": "2026-08-21T12:00:00+00:00",
+      "recognised_at": "2026-08-21T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9d280ce10d639f44",
+      "kind": "V",
+      "price": 4577.92,
+      "anchor_timestamp": "2026-08-21T12:00:00+00:00",
+      "formed_at": "2026-08-21T16:00:00+00:00",
+      "recognised_at": "2026-08-21T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8ca68516304c11ba",
+      "kind": "A",
+      "price": 4628.81,
+      "anchor_timestamp": "2026-08-21T16:00:00+00:00",
+      "formed_at": "2026-08-21T20:00:00+00:00",
+      "recognised_at": "2026-08-22T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-2d2002c159bc7cd2",
+      "kind": "V",
+      "price": 4602.71,
+      "anchor_timestamp": "2026-08-21T20:00:00+00:00",
+      "formed_at": "2026-08-22T00:00:00+00:00",
+      "recognised_at": "2026-08-24T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2911b9dc604b321c",
+      "kind": "A",
+      "price": 4638.66,
+      "anchor_timestamp": "2026-08-24T04:00:00+00:00",
+      "formed_at": "2026-08-24T08:00:00+00:00",
+      "recognised_at": "2026-08-24T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-43a31fbdf52e0562",
+      "kind": "V",
+      "price": 4637.82,
+      "anchor_timestamp": "2026-08-24T08:00:00+00:00",
+      "formed_at": "2026-08-24T12:00:00+00:00",
+      "recognised_at": "2026-08-24T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5304191d9135b936",
+      "kind": "A",
+      "price": 4662.67,
+      "anchor_timestamp": "2026-08-24T12:00:00+00:00",
+      "formed_at": "2026-08-24T16:00:00+00:00",
+      "recognised_at": "2026-08-24T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c408e84ce156004b",
+      "kind": "V",
+      "price": 4644.67,
+      "anchor_timestamp": "2026-08-24T16:00:00+00:00",
+      "formed_at": "2026-08-24T20:00:00+00:00",
+      "recognised_at": "2026-08-25T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-b4b8a7e83560a4f0",
+      "kind": "A",
+      "price": 4682.99,
+      "anchor_timestamp": "2026-08-25T00:00:00+00:00",
+      "formed_at": "2026-08-25T04:00:00+00:00",
+      "recognised_at": "2026-08-25T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-bc9218bbfc61dbe5",
+      "kind": "V",
+      "price": 4625.34,
+      "anchor_timestamp": "2026-08-25T04:00:00+00:00",
+      "formed_at": "2026-08-25T08:00:00+00:00",
+      "recognised_at": "2026-08-25T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4178c077d69f07e0",
+      "kind": "A",
+      "price": 4657.2,
+      "anchor_timestamp": "2026-08-25T20:00:00+00:00",
+      "formed_at": "2026-08-26T00:00:00+00:00",
+      "recognised_at": "2026-08-26T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-569b233768ec9f2e",
+      "kind": "V",
+      "price": 4637.11,
+      "anchor_timestamp": "2026-08-26T00:00:00+00:00",
+      "formed_at": "2026-08-26T04:00:00+00:00",
+      "recognised_at": "2026-08-26T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0d8db5c52d8754b1",
+      "kind": "A",
+      "price": 4640.35,
+      "anchor_timestamp": "2026-08-26T04:00:00+00:00",
+      "formed_at": "2026-08-26T08:00:00+00:00",
+      "recognised_at": "2026-08-26T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1b360cc8230f5db7",
+      "kind": "V",
+      "price": 4591.26,
+      "anchor_timestamp": "2026-08-26T16:00:00+00:00",
+      "formed_at": "2026-08-26T20:00:00+00:00",
+      "recognised_at": "2026-08-27T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c1fb873177b204cd",
+      "kind": "A",
+      "price": 4618.58,
+      "anchor_timestamp": "2026-08-27T04:00:00+00:00",
+      "formed_at": "2026-08-27T08:00:00+00:00",
+      "recognised_at": "2026-08-27T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-461e6e86bd4584e6",
+      "kind": "V",
+      "price": 4585.9,
+      "anchor_timestamp": "2026-08-27T12:00:00+00:00",
+      "formed_at": "2026-08-27T16:00:00+00:00",
+      "recognised_at": "2026-08-27T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4a91fe2bada7aa47",
+      "kind": "A",
+      "price": 4615.03,
+      "anchor_timestamp": "2026-08-27T16:00:00+00:00",
+      "formed_at": "2026-08-27T20:00:00+00:00",
+      "recognised_at": "2026-08-28T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4cd335f80b854d33",
+      "kind": "V",
+      "price": 4584.08,
+      "anchor_timestamp": "2026-08-28T04:00:00+00:00",
+      "formed_at": "2026-08-28T08:00:00+00:00",
+      "recognised_at": "2026-08-28T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d1bf883dedc28ee1",
+      "kind": "A",
+      "price": 4602.96,
+      "anchor_timestamp": "2026-08-28T08:00:00+00:00",
+      "formed_at": "2026-08-28T12:00:00+00:00",
+      "recognised_at": "2026-08-28T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f9fe9b9a92ad08da",
+      "kind": "V",
+      "price": 4454.58,
+      "anchor_timestamp": "2026-08-28T20:00:00+00:00",
+      "formed_at": "2026-08-29T00:00:00+00:00",
+      "recognised_at": "2026-08-31T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7f7a34f8adce06f6",
+      "kind": "A",
+      "price": 4455.95,
+      "anchor_timestamp": "2026-08-31T00:00:00+00:00",
+      "formed_at": "2026-08-31T04:00:00+00:00",
+      "recognised_at": "2026-08-31T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2d6bc89e9cc7310f",
+      "kind": "V",
+      "price": 4424.38,
+      "anchor_timestamp": "2026-08-31T04:00:00+00:00",
+      "formed_at": "2026-08-31T08:00:00+00:00",
+      "recognised_at": "2026-08-31T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f1ff5d40d118433d",
+      "kind": "A",
+      "price": 4435.45,
+      "anchor_timestamp": "2026-08-31T12:00:00+00:00",
+      "formed_at": "2026-08-31T16:00:00+00:00",
+      "recognised_at": "2026-08-31T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-ab8289542c7883ce",
+      "kind": "V",
+      "price": 4432.92,
+      "anchor_timestamp": "2026-08-31T16:00:00+00:00",
+      "formed_at": "2026-08-31T20:00:00+00:00",
+      "recognised_at": "2026-09-01T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1e8ea418733a85fb",
+      "kind": "A",
+      "price": 4453.99,
+      "anchor_timestamp": "2026-09-01T00:00:00+00:00",
+      "formed_at": "2026-09-01T04:00:00+00:00",
+      "recognised_at": "2026-09-01T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6a93dbd175edbc72",
+      "kind": "V",
+      "price": 4307.19,
+      "anchor_timestamp": "2026-09-02T04:00:00+00:00",
+      "formed_at": "2026-09-02T08:00:00+00:00",
+      "recognised_at": "2026-09-02T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6af08fb4b23f406c",
+      "kind": "A",
+      "price": 4437.28,
+      "anchor_timestamp": "2026-09-03T04:00:00+00:00",
+      "formed_at": "2026-09-03T08:00:00+00:00",
+      "recognised_at": "2026-09-03T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-baa62942fd1017bb",
+      "kind": "V",
+      "price": 4434.63,
+      "anchor_timestamp": "2026-09-03T08:00:00+00:00",
+      "formed_at": "2026-09-03T12:00:00+00:00",
+      "recognised_at": "2026-09-03T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a290adf3ae08ab4e",
+      "kind": "A",
+      "price": 4493.51,
+      "anchor_timestamp": "2026-09-03T12:00:00+00:00",
+      "formed_at": "2026-09-03T16:00:00+00:00",
+      "recognised_at": "2026-09-03T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5b09f176906d7d5e",
+      "kind": "V",
+      "price": 4471.66,
+      "anchor_timestamp": "2026-09-03T20:00:00+00:00",
+      "formed_at": "2026-09-04T00:00:00+00:00",
+      "recognised_at": "2026-09-04T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-328071fc1a103a8b",
+      "kind": "A",
+      "price": 4485.99,
+      "anchor_timestamp": "2026-09-04T00:00:00+00:00",
+      "formed_at": "2026-09-04T04:00:00+00:00",
+      "recognised_at": "2026-09-04T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a464935cc18c6fa7",
+      "kind": "V",
+      "price": 4473.47,
+      "anchor_timestamp": "2026-09-04T04:00:00+00:00",
+      "formed_at": "2026-09-04T08:00:00+00:00",
+      "recognised_at": "2026-09-04T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-38e521807e7ec88c",
+      "kind": "A",
+      "price": 4477.43,
+      "anchor_timestamp": "2026-09-04T08:00:00+00:00",
+      "formed_at": "2026-09-04T12:00:00+00:00",
+      "recognised_at": "2026-09-04T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-cf78709b99fc58b8",
+      "kind": "V",
+      "price": 4393.63,
+      "anchor_timestamp": "2026-09-04T12:00:00+00:00",
+      "formed_at": "2026-09-04T16:00:00+00:00",
+      "recognised_at": "2026-09-04T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-cd7edde5b3b45c14",
+      "kind": "A",
+      "price": 4436.35,
+      "anchor_timestamp": "2026-09-04T16:00:00+00:00",
+      "formed_at": "2026-09-04T20:00:00+00:00",
+      "recognised_at": "2026-09-05T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-09a1bdfe940baf65",
+      "kind": "V",
+      "price": 4398.04,
+      "anchor_timestamp": "2026-09-07T04:00:00+00:00",
+      "formed_at": "2026-09-07T08:00:00+00:00",
+      "recognised_at": "2026-09-07T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-83ee6d6103287010",
+      "kind": "A",
+      "price": 4410.82,
+      "anchor_timestamp": "2026-09-07T08:00:00+00:00",
+      "formed_at": "2026-09-07T12:00:00+00:00",
+      "recognised_at": "2026-09-07T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fe11395a7d84d28a",
+      "kind": "V",
+      "price": 4396.79,
+      "anchor_timestamp": "2026-09-07T12:00:00+00:00",
+      "formed_at": "2026-09-07T16:00:00+00:00",
+      "recognised_at": "2026-09-07T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-188fec629f47c09f",
+      "kind": "A",
+      "price": 4414.58,
+      "anchor_timestamp": "2026-09-07T16:00:00+00:00",
+      "formed_at": "2026-09-07T20:00:00+00:00",
+      "recognised_at": "2026-09-08T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-64564bf82b7e5217",
+      "kind": "V",
+      "price": 4406.3,
+      "anchor_timestamp": "2026-09-07T20:00:00+00:00",
+      "formed_at": "2026-09-08T00:00:00+00:00",
+      "recognised_at": "2026-09-08T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6d99402a36372b4d",
+      "kind": "A",
+      "price": 4435.83,
+      "anchor_timestamp": "2026-09-08T04:00:00+00:00",
+      "formed_at": "2026-09-08T08:00:00+00:00",
+      "recognised_at": "2026-09-08T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6dbbb57c62cb0627",
+      "kind": "V",
+      "price": 4393.91,
+      "anchor_timestamp": "2026-09-08T08:00:00+00:00",
+      "formed_at": "2026-09-08T12:00:00+00:00",
+      "recognised_at": "2026-09-08T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a51d5b52cde20ddf",
+      "kind": "A",
+      "price": 4411.46,
+      "anchor_timestamp": "2026-09-08T12:00:00+00:00",
+      "formed_at": "2026-09-08T16:00:00+00:00",
+      "recognised_at": "2026-09-08T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-73c4c54b5461284e",
+      "kind": "V",
+      "price": 4353.93,
+      "anchor_timestamp": "2026-09-08T20:00:00+00:00",
+      "formed_at": "2026-09-09T00:00:00+00:00",
+      "recognised_at": "2026-09-09T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-eb4f0660ef0d85db",
+      "kind": "A",
+      "price": 4400.67,
+      "anchor_timestamp": "2026-09-09T08:00:00+00:00",
+      "formed_at": "2026-09-09T12:00:00+00:00",
+      "recognised_at": "2026-09-09T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0bc912d284ec7668",
+      "kind": "V",
+      "price": 4400.0,
+      "anchor_timestamp": "2026-09-09T12:00:00+00:00",
+      "formed_at": "2026-09-09T16:00:00+00:00",
+      "recognised_at": "2026-09-09T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-206440e1fb60aa83",
+      "kind": "A",
+      "price": 4409.52,
+      "anchor_timestamp": "2026-09-09T16:00:00+00:00",
+      "formed_at": "2026-09-09T20:00:00+00:00",
+      "recognised_at": "2026-09-10T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d086d2f23dfbb7f6",
+      "kind": "V",
+      "price": 4399.27,
+      "anchor_timestamp": "2026-09-09T20:00:00+00:00",
+      "formed_at": "2026-09-10T00:00:00+00:00",
+      "recognised_at": "2026-09-10T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8c354b989b1c6244",
+      "kind": "A",
+      "price": 4408.3,
+      "anchor_timestamp": "2026-09-10T04:00:00+00:00",
+      "formed_at": "2026-09-10T08:00:00+00:00",
+      "recognised_at": "2026-09-10T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8b3fc758eb3aa0ec",
+      "kind": "V",
+      "price": 4339.8,
+      "anchor_timestamp": "2026-09-10T12:00:00+00:00",
+      "formed_at": "2026-09-10T16:00:00+00:00",
+      "recognised_at": "2026-09-10T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-15d3c953fea3070f",
+      "kind": "A",
+      "price": 4363.99,
+      "anchor_timestamp": "2026-09-10T16:00:00+00:00",
+      "formed_at": "2026-09-10T20:00:00+00:00",
+      "recognised_at": "2026-09-11T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-31d2ea8b29538099",
+      "kind": "V",
+      "price": 4314.95,
+      "anchor_timestamp": "2026-09-10T20:00:00+00:00",
+      "formed_at": "2026-09-11T00:00:00+00:00",
+      "recognised_at": "2026-09-11T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1bd27ad1b83552b9",
+      "kind": "A",
+      "price": 4331.88,
+      "anchor_timestamp": "2026-09-11T00:00:00+00:00",
+      "formed_at": "2026-09-11T04:00:00+00:00",
+      "recognised_at": "2026-09-11T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6a4279d3e993dc5d",
+      "kind": "V",
+      "price": 4331.42,
+      "anchor_timestamp": "2026-09-11T04:00:00+00:00",
+      "formed_at": "2026-09-11T08:00:00+00:00",
+      "recognised_at": "2026-09-11T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-edd0c8951170b170",
+      "kind": "A",
+      "price": 4388.45,
+      "anchor_timestamp": "2026-09-11T12:00:00+00:00",
+      "formed_at": "2026-09-11T16:00:00+00:00",
+      "recognised_at": "2026-09-11T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c0246c77939265fc",
+      "kind": "V",
+      "price": 4270.77,
+      "anchor_timestamp": "2026-09-14T12:00:00+00:00",
+      "formed_at": "2026-09-14T16:00:00+00:00",
+      "recognised_at": "2026-09-14T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1df4b6faf1a3a487",
+      "kind": "A",
+      "price": 4315.8,
+      "anchor_timestamp": "2026-09-14T16:00:00+00:00",
+      "formed_at": "2026-09-14T20:00:00+00:00",
+      "recognised_at": "2026-09-15T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-70cc7575661415b9",
+      "kind": "V",
+      "price": 4292.86,
+      "anchor_timestamp": "2026-09-15T00:00:00+00:00",
+      "formed_at": "2026-09-15T04:00:00+00:00",
+      "recognised_at": "2026-09-15T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4f97db36cb2a2f57",
+      "kind": "A",
+      "price": 4305.67,
+      "anchor_timestamp": "2026-09-15T04:00:00+00:00",
+      "formed_at": "2026-09-15T08:00:00+00:00",
+      "recognised_at": "2026-09-15T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-096c6e44e721e543",
+      "kind": "V",
+      "price": 4262.14,
+      "anchor_timestamp": "2026-09-15T08:00:00+00:00",
+      "formed_at": "2026-09-15T12:00:00+00:00",
+      "recognised_at": "2026-09-15T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-943ceb987354b606",
+      "kind": "A",
+      "price": 4295.38,
+      "anchor_timestamp": "2026-09-15T16:00:00+00:00",
+      "formed_at": "2026-09-15T20:00:00+00:00",
+      "recognised_at": "2026-09-16T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-212c3957ac69e89f",
+      "kind": "V",
+      "price": 4276.18,
+      "anchor_timestamp": "2026-09-16T00:00:00+00:00",
+      "formed_at": "2026-09-16T04:00:00+00:00",
+      "recognised_at": "2026-09-16T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f05cbe82f8a3be70",
+      "kind": "A",
+      "price": 4347.52,
+      "anchor_timestamp": "2026-09-16T12:00:00+00:00",
+      "formed_at": "2026-09-16T16:00:00+00:00",
+      "recognised_at": "2026-09-16T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-471d33195b88e281",
+      "kind": "V",
+      "price": 4262.51,
+      "anchor_timestamp": "2026-09-16T20:00:00+00:00",
+      "formed_at": "2026-09-17T00:00:00+00:00",
+      "recognised_at": "2026-09-17T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9d42547a638bc631",
+      "kind": "A",
+      "price": 4373.33,
+      "anchor_timestamp": "2026-09-17T12:00:00+00:00",
+      "formed_at": "2026-09-17T16:00:00+00:00",
+      "recognised_at": "2026-09-17T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5179931a2325579f",
+      "kind": "V",
+      "price": 4340.2,
+      "anchor_timestamp": "2026-09-17T20:00:00+00:00",
+      "formed_at": "2026-09-18T00:00:00+00:00",
+      "recognised_at": "2026-09-18T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-cd3f1953cf3f84e6",
+      "kind": "A",
+      "price": 4392.28,
+      "anchor_timestamp": "2026-09-18T08:00:00+00:00",
+      "formed_at": "2026-09-18T12:00:00+00:00",
+      "recognised_at": "2026-09-18T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-017bf7aadf0d131a",
+      "kind": "V",
+      "price": 4368.68,
+      "anchor_timestamp": "2026-09-18T12:00:00+00:00",
+      "formed_at": "2026-09-18T16:00:00+00:00",
+      "recognised_at": "2026-09-18T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fb7ba204ec926256",
+      "kind": "A",
+      "price": 4382.72,
+      "anchor_timestamp": "2026-09-18T16:00:00+00:00",
+      "formed_at": "2026-09-18T20:00:00+00:00",
+      "recognised_at": "2026-09-19T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-29a041d53dccbc42",
+      "kind": "V",
+      "price": 4352.82,
+      "anchor_timestamp": "2026-09-21T08:00:00+00:00",
+      "formed_at": "2026-09-21T12:00:00+00:00",
+      "recognised_at": "2026-09-21T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-411a396b470e1285",
+      "kind": "A",
+      "price": 4359.34,
+      "anchor_timestamp": "2026-09-21T12:00:00+00:00",
+      "formed_at": "2026-09-21T16:00:00+00:00",
+      "recognised_at": "2026-09-21T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-320ce3a67d8a3877",
+      "kind": "V",
+      "price": 4341.87,
+      "anchor_timestamp": "2026-09-21T20:00:00+00:00",
+      "formed_at": "2026-09-22T00:00:00+00:00",
+      "recognised_at": "2026-09-22T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a0223b0aa1d53dd1",
+      "kind": "A",
+      "price": 4359.9,
+      "anchor_timestamp": "2026-09-22T00:00:00+00:00",
+      "formed_at": "2026-09-22T04:00:00+00:00",
+      "recognised_at": "2026-09-22T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-278a4f93c3351585",
+      "kind": "V",
+      "price": 4330.0,
+      "anchor_timestamp": "2026-09-22T08:00:00+00:00",
+      "formed_at": "2026-09-22T12:00:00+00:00",
+      "recognised_at": "2026-09-22T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fc9623d556b2458c",
+      "kind": "A",
+      "price": 4357.42,
+      "anchor_timestamp": "2026-09-23T00:00:00+00:00",
+      "formed_at": "2026-09-23T04:00:00+00:00",
+      "recognised_at": "2026-09-23T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-69d4441cbc5e9419",
+      "kind": "V",
+      "price": 4284.21,
+      "anchor_timestamp": "2026-09-23T16:00:00+00:00",
+      "formed_at": "2026-09-23T20:00:00+00:00",
+      "recognised_at": "2026-09-24T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2861391d766a7bec",
+      "kind": "A",
+      "price": 4299.53,
+      "anchor_timestamp": "2026-09-24T00:00:00+00:00",
+      "formed_at": "2026-09-24T04:00:00+00:00",
+      "recognised_at": "2026-09-24T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-69eaf835fa39d59d",
+      "kind": "V",
+      "price": 4260.99,
+      "anchor_timestamp": "2026-09-24T08:00:00+00:00",
+      "formed_at": "2026-09-24T12:00:00+00:00",
+      "recognised_at": "2026-09-24T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c27293c9459effc0",
+      "kind": "A",
+      "price": 4281.03,
+      "anchor_timestamp": "2026-09-24T12:00:00+00:00",
+      "formed_at": "2026-09-24T16:00:00+00:00",
+      "recognised_at": "2026-09-24T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-aff6e9b032d7ce1a",
+      "kind": "V",
+      "price": 4272.86,
+      "anchor_timestamp": "2026-09-24T16:00:00+00:00",
+      "formed_at": "2026-09-24T20:00:00+00:00",
+      "recognised_at": "2026-09-25T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0c4c4523e9a009ed",
+      "kind": "A",
+      "price": 4276.75,
+      "anchor_timestamp": "2026-09-25T00:00:00+00:00",
+      "formed_at": "2026-09-25T04:00:00+00:00",
+      "recognised_at": "2026-09-25T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-b2742835d76d18ff",
+      "kind": "V",
+      "price": 4262.38,
+      "anchor_timestamp": "2026-09-25T04:00:00+00:00",
+      "formed_at": "2026-09-25T08:00:00+00:00",
+      "recognised_at": "2026-09-25T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-03bb750574340ea2",
+      "kind": "A",
+      "price": 4297.9,
+      "anchor_timestamp": "2026-09-25T12:00:00+00:00",
+      "formed_at": "2026-09-25T16:00:00+00:00",
+      "recognised_at": "2026-09-25T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-44bc93eb89258df5",
+      "kind": "V",
+      "price": 4143.43,
+      "anchor_timestamp": "2026-09-28T08:00:00+00:00",
+      "formed_at": "2026-09-28T12:00:00+00:00",
+      "recognised_at": "2026-09-28T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e9c6cd0736b337e2",
+      "kind": "A",
+      "price": 4153.63,
+      "anchor_timestamp": "2026-09-28T12:00:00+00:00",
+      "formed_at": "2026-09-28T16:00:00+00:00",
+      "recognised_at": "2026-09-28T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3d20d233f64648d0",
+      "kind": "V",
+      "price": 4112.56,
+      "anchor_timestamp": "2026-09-28T20:00:00+00:00",
+      "formed_at": "2026-09-29T00:00:00+00:00",
+      "recognised_at": "2026-09-29T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d3901cee9dfd59fa",
+      "kind": "A",
+      "price": 4150.86,
+      "anchor_timestamp": "2026-09-29T12:00:00+00:00",
+      "formed_at": "2026-09-29T16:00:00+00:00",
+      "recognised_at": "2026-09-29T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-01f9e0987a02ddfa",
+      "kind": "V",
+      "price": 4145.42,
+      "anchor_timestamp": "2026-09-29T16:00:00+00:00",
+      "formed_at": "2026-09-29T20:00:00+00:00",
+      "recognised_at": "2026-09-30T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-bd50ff980a5760a7",
+      "kind": "A",
+      "price": 4179.85,
+      "anchor_timestamp": "2026-09-29T20:00:00+00:00",
+      "formed_at": "2026-09-30T00:00:00+00:00",
+      "recognised_at": "2026-09-30T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d041a1e0e0ac430e",
+      "kind": "V",
+      "price": 4176.46,
+      "anchor_timestamp": "2026-09-30T00:00:00+00:00",
+      "formed_at": "2026-09-30T04:00:00+00:00",
+      "recognised_at": "2026-09-30T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4023e30a6e4ef359",
+      "kind": "A",
+      "price": 4208.06,
+      "anchor_timestamp": "2026-09-30T12:00:00+00:00",
+      "formed_at": "2026-09-30T16:00:00+00:00",
+      "recognised_at": "2026-09-30T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e9568cec9703e697",
+      "kind": "V",
+      "price": 4144.89,
+      "anchor_timestamp": "2026-10-01T00:00:00+00:00",
+      "formed_at": "2026-10-01T04:00:00+00:00",
+      "recognised_at": "2026-10-01T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8a024cff45362f74",
+      "kind": "A",
+      "price": 4179.79,
+      "anchor_timestamp": "2026-10-01T04:00:00+00:00",
+      "formed_at": "2026-10-01T08:00:00+00:00",
+      "recognised_at": "2026-10-01T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-fe88803c3ba6ac01",
+      "kind": "V",
+      "price": 4153.16,
+      "anchor_timestamp": "2026-10-01T08:00:00+00:00",
+      "formed_at": "2026-10-01T12:00:00+00:00",
+      "recognised_at": "2026-10-01T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e7ce94cb5f6b979a",
+      "kind": "A",
+      "price": 4178.71,
+      "anchor_timestamp": "2026-10-01T12:00:00+00:00",
+      "formed_at": "2026-10-01T16:00:00+00:00",
+      "recognised_at": "2026-10-01T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-643cf7de7d573b94",
+      "kind": "V",
+      "price": 4162.27,
+      "anchor_timestamp": "2026-10-01T16:00:00+00:00",
+      "formed_at": "2026-10-01T20:00:00+00:00",
+      "recognised_at": "2026-10-02T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-93f76a776b8c1df1",
+      "kind": "A",
+      "price": 4175.37,
+      "anchor_timestamp": "2026-10-01T20:00:00+00:00",
+      "formed_at": "2026-10-02T00:00:00+00:00",
+      "recognised_at": "2026-10-02T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-785176ed9b8e64fe",
+      "kind": "V",
+      "price": 4153.02,
+      "anchor_timestamp": "2026-10-02T00:00:00+00:00",
+      "formed_at": "2026-10-02T04:00:00+00:00",
+      "recognised_at": "2026-10-02T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-27d59c9faf929b86",
+      "kind": "A",
+      "price": 4185.07,
+      "anchor_timestamp": "2026-10-02T04:00:00+00:00",
+      "formed_at": "2026-10-02T08:00:00+00:00",
+      "recognised_at": "2026-10-02T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4c8573d65826c7b7",
+      "kind": "V",
+      "price": 4184.12,
+      "anchor_timestamp": "2026-10-02T08:00:00+00:00",
+      "formed_at": "2026-10-02T12:00:00+00:00",
+      "recognised_at": "2026-10-02T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-afb92d2891fcac33",
+      "kind": "A",
+      "price": 4217.6,
+      "anchor_timestamp": "2026-10-02T12:00:00+00:00",
+      "formed_at": "2026-10-02T16:00:00+00:00",
+      "recognised_at": "2026-10-02T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4f86b36fc7f72ecd",
+      "kind": "V",
+      "price": 4138.44,
+      "anchor_timestamp": "2026-10-02T16:00:00+00:00",
+      "formed_at": "2026-10-02T20:00:00+00:00",
+      "recognised_at": "2026-10-03T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-798f00015fc03431",
+      "kind": "A",
+      "price": 4156.13,
+      "anchor_timestamp": "2026-10-05T00:00:00+00:00",
+      "formed_at": "2026-10-05T04:00:00+00:00",
+      "recognised_at": "2026-10-05T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-754076ce1bcc8d6d",
+      "kind": "V",
+      "price": 4131.01,
+      "anchor_timestamp": "2026-10-05T04:00:00+00:00",
+      "formed_at": "2026-10-05T08:00:00+00:00",
+      "recognised_at": "2026-10-05T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d67bc95f81e34869",
+      "kind": "A",
+      "price": 4166.63,
+      "anchor_timestamp": "2026-10-05T08:00:00+00:00",
+      "formed_at": "2026-10-05T12:00:00+00:00",
+      "recognised_at": "2026-10-05T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-bd5da1f02260082b",
+      "kind": "V",
+      "price": 4129.83,
+      "anchor_timestamp": "2026-10-05T16:00:00+00:00",
+      "formed_at": "2026-10-05T20:00:00+00:00",
+      "recognised_at": "2026-10-06T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-93824aed00a328eb",
+      "kind": "A",
+      "price": 4150.47,
+      "anchor_timestamp": "2026-10-06T00:00:00+00:00",
+      "formed_at": "2026-10-06T04:00:00+00:00",
+      "recognised_at": "2026-10-06T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9efe619dc82eb619",
+      "kind": "V",
+      "price": 4121.15,
+      "anchor_timestamp": "2026-10-06T04:00:00+00:00",
+      "formed_at": "2026-10-06T08:00:00+00:00",
+      "recognised_at": "2026-10-06T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8d47b6a8969edccf",
+      "kind": "A",
+      "price": 4170.1,
+      "anchor_timestamp": "2026-10-06T12:00:00+00:00",
+      "formed_at": "2026-10-06T16:00:00+00:00",
+      "recognised_at": "2026-10-06T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7a22b9cd3c47c663",
+      "kind": "V",
+      "price": 4156.76,
+      "anchor_timestamp": "2026-10-06T16:00:00+00:00",
+      "formed_at": "2026-10-06T20:00:00+00:00",
+      "recognised_at": "2026-10-07T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-14c9d58d87cb769c",
+      "kind": "A",
+      "price": 4162.17,
+      "anchor_timestamp": "2026-10-06T20:00:00+00:00",
+      "formed_at": "2026-10-07T00:00:00+00:00",
+      "recognised_at": "2026-10-07T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8cb2397a04fad848",
+      "kind": "V",
+      "price": 4087.1,
+      "anchor_timestamp": "2026-10-07T12:00:00+00:00",
+      "formed_at": "2026-10-07T16:00:00+00:00",
+      "recognised_at": "2026-10-07T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-35cf090a80334733",
+      "kind": "A",
+      "price": 4109.41,
+      "anchor_timestamp": "2026-10-07T16:00:00+00:00",
+      "formed_at": "2026-10-07T20:00:00+00:00",
+      "recognised_at": "2026-10-08T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2b67883e772fb7d3",
+      "kind": "V",
+      "price": 4108.14,
+      "anchor_timestamp": "2026-10-07T20:00:00+00:00",
+      "formed_at": "2026-10-08T00:00:00+00:00",
+      "recognised_at": "2026-10-08T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-af79b261ae4b38ec",
+      "kind": "A",
+      "price": 4133.41,
+      "anchor_timestamp": "2026-10-08T04:00:00+00:00",
+      "formed_at": "2026-10-08T08:00:00+00:00",
+      "recognised_at": "2026-10-08T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5436fda93eff2e66",
+      "kind": "V",
+      "price": 4118.45,
+      "anchor_timestamp": "2026-10-08T12:00:00+00:00",
+      "formed_at": "2026-10-08T16:00:00+00:00",
+      "recognised_at": "2026-10-08T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0e543964fcb37a39",
+      "kind": "A",
+      "price": 4187.8,
+      "anchor_timestamp": "2026-10-09T08:00:00+00:00",
+      "formed_at": "2026-10-09T12:00:00+00:00",
+      "recognised_at": "2026-10-09T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e771c32315c16913",
+      "kind": "V",
+      "price": 4175.45,
+      "anchor_timestamp": "2026-10-09T12:00:00+00:00",
+      "formed_at": "2026-10-09T16:00:00+00:00",
+      "recognised_at": "2026-10-09T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0c648fdaee456e4e",
+      "kind": "A",
+      "price": 4208.89,
+      "anchor_timestamp": "2026-10-12T00:00:00+00:00",
+      "formed_at": "2026-10-12T04:00:00+00:00",
+      "recognised_at": "2026-10-12T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-033296b81ba2314b",
+      "kind": "V",
+      "price": 4164.6,
+      "anchor_timestamp": "2026-10-12T16:00:00+00:00",
+      "formed_at": "2026-10-12T20:00:00+00:00",
+      "recognised_at": "2026-10-13T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1ab8c07f1fac4306",
+      "kind": "A",
+      "price": 4169.94,
+      "anchor_timestamp": "2026-10-12T20:00:00+00:00",
+      "formed_at": "2026-10-13T00:00:00+00:00",
+      "recognised_at": "2026-10-13T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0b8dc2bd65d71723",
+      "kind": "V",
+      "price": 4157.54,
+      "anchor_timestamp": "2026-10-13T00:00:00+00:00",
+      "formed_at": "2026-10-13T04:00:00+00:00",
+      "recognised_at": "2026-10-13T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-9f2ad3332491bd57",
+      "kind": "A",
+      "price": 4195.68,
+      "anchor_timestamp": "2026-10-13T04:00:00+00:00",
+      "formed_at": "2026-10-13T08:00:00+00:00",
+      "recognised_at": "2026-10-13T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c4c107cef46893f8",
+      "kind": "V",
+      "price": 4152.2,
+      "anchor_timestamp": "2026-10-13T16:00:00+00:00",
+      "formed_at": "2026-10-13T20:00:00+00:00",
+      "recognised_at": "2026-10-14T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-b0463b6dffa74808",
+      "kind": "A",
+      "price": 4158.9,
+      "anchor_timestamp": "2026-10-13T20:00:00+00:00",
+      "formed_at": "2026-10-14T00:00:00+00:00",
+      "recognised_at": "2026-10-14T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-cb4dba0c327a5ca6",
+      "kind": "V",
+      "price": 4154.87,
+      "anchor_timestamp": "2026-10-14T00:00:00+00:00",
+      "formed_at": "2026-10-14T04:00:00+00:00",
+      "recognised_at": "2026-10-14T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e280cc6c4f84e52c",
+      "kind": "A",
+      "price": 4165.51,
+      "anchor_timestamp": "2026-10-14T04:00:00+00:00",
+      "formed_at": "2026-10-14T08:00:00+00:00",
+      "recognised_at": "2026-10-14T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0febb23cf382f611",
+      "kind": "V",
+      "price": 4083.16,
+      "anchor_timestamp": "2026-10-14T16:00:00+00:00",
+      "formed_at": "2026-10-14T20:00:00+00:00",
+      "recognised_at": "2026-10-15T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-3cbf83c09718bb68",
+      "kind": "A",
+      "price": 4152.05,
+      "anchor_timestamp": "2026-10-15T12:00:00+00:00",
+      "formed_at": "2026-10-15T16:00:00+00:00",
+      "recognised_at": "2026-10-15T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-62b58aeb1e35a876",
+      "kind": "V",
+      "price": 4147.15,
+      "anchor_timestamp": "2026-10-15T16:00:00+00:00",
+      "formed_at": "2026-10-15T20:00:00+00:00",
+      "recognised_at": "2026-10-16T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6725e2a80031c81c",
+      "kind": "A",
+      "price": 4168.48,
+      "anchor_timestamp": "2026-10-15T20:00:00+00:00",
+      "formed_at": "2026-10-16T00:00:00+00:00",
+      "recognised_at": "2026-10-16T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-bd9a13d48791ab05",
+      "kind": "V",
+      "price": 4156.12,
+      "anchor_timestamp": "2026-10-16T00:00:00+00:00",
+      "formed_at": "2026-10-16T04:00:00+00:00",
+      "recognised_at": "2026-10-16T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-58c67abec2c06884",
+      "kind": "A",
+      "price": 4189.11,
+      "anchor_timestamp": "2026-10-16T08:00:00+00:00",
+      "formed_at": "2026-10-16T12:00:00+00:00",
+      "recognised_at": "2026-10-16T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-11a50e04725f000c",
+      "kind": "V",
+      "price": 4161.26,
+      "anchor_timestamp": "2026-10-16T16:00:00+00:00",
+      "formed_at": "2026-10-16T20:00:00+00:00",
+      "recognised_at": "2026-10-17T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": true
+      }
+    },
+    {
+      "structure_id": "av-25a4add0d905e157",
+      "kind": "A",
+      "price": 4183.49,
+      "anchor_timestamp": "2026-10-19T04:00:00+00:00",
+      "formed_at": "2026-10-19T08:00:00+00:00",
+      "recognised_at": "2026-10-19T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-844e59cc03f96431",
+      "kind": "V",
+      "price": 4130.84,
+      "anchor_timestamp": "2026-10-20T00:00:00+00:00",
+      "formed_at": "2026-10-20T04:00:00+00:00",
+      "recognised_at": "2026-10-20T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6077f10a68d12f72",
+      "kind": "A",
+      "price": 4144.0,
+      "anchor_timestamp": "2026-10-20T04:00:00+00:00",
+      "formed_at": "2026-10-20T08:00:00+00:00",
+      "recognised_at": "2026-10-20T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-14c2d80cd9cdcc03",
+      "kind": "V",
+      "price": 4119.24,
+      "anchor_timestamp": "2026-10-20T12:00:00+00:00",
+      "formed_at": "2026-10-20T16:00:00+00:00",
+      "recognised_at": "2026-10-20T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0db2edb98c6ff4c2",
+      "kind": "A",
+      "price": 4123.08,
+      "anchor_timestamp": "2026-10-20T20:00:00+00:00",
+      "formed_at": "2026-10-21T00:00:00+00:00",
+      "recognised_at": "2026-10-21T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8fad0d39a47cd20f",
+      "kind": "V",
+      "price": 4114.29,
+      "anchor_timestamp": "2026-10-21T04:00:00+00:00",
+      "formed_at": "2026-10-21T08:00:00+00:00",
+      "recognised_at": "2026-10-21T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1dbc8f054f807725",
+      "kind": "A",
+      "price": 4139.12,
+      "anchor_timestamp": "2026-10-21T20:00:00+00:00",
+      "formed_at": "2026-10-22T00:00:00+00:00",
+      "recognised_at": "2026-10-22T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4224c47b95174dfe",
+      "kind": "V",
+      "price": 4082.59,
+      "anchor_timestamp": "2026-10-22T08:00:00+00:00",
+      "formed_at": "2026-10-22T12:00:00+00:00",
+      "recognised_at": "2026-10-22T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f8534f8dc1984fff",
+      "kind": "A",
+      "price": 4087.65,
+      "anchor_timestamp": "2026-10-22T12:00:00+00:00",
+      "formed_at": "2026-10-22T16:00:00+00:00",
+      "recognised_at": "2026-10-22T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-efc0e0c86180b6ea",
+      "kind": "V",
+      "price": 4023.46,
+      "anchor_timestamp": "2026-10-22T20:00:00+00:00",
+      "formed_at": "2026-10-23T00:00:00+00:00",
+      "recognised_at": "2026-10-23T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-8744c56ab373a5d7",
+      "kind": "A",
+      "price": 4030.23,
+      "anchor_timestamp": "2026-10-23T00:00:00+00:00",
+      "formed_at": "2026-10-23T04:00:00+00:00",
+      "recognised_at": "2026-10-23T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0eea6ce28d272c86",
+      "kind": "V",
+      "price": 4004.15,
+      "anchor_timestamp": "2026-10-23T04:00:00+00:00",
+      "formed_at": "2026-10-23T08:00:00+00:00",
+      "recognised_at": "2026-10-23T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-5b24442967560774",
+      "kind": "A",
+      "price": 4025.96,
+      "anchor_timestamp": "2026-10-23T12:00:00+00:00",
+      "formed_at": "2026-10-23T16:00:00+00:00",
+      "recognised_at": "2026-10-23T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2d8a005196770841",
+      "kind": "V",
+      "price": 3988.82,
+      "anchor_timestamp": "2026-10-26T00:00:00+00:00",
+      "formed_at": "2026-10-26T04:00:00+00:00",
+      "recognised_at": "2026-10-26T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-c478da4fc33ca7e5",
+      "kind": "A",
+      "price": 4017.52,
+      "anchor_timestamp": "2026-10-26T08:00:00+00:00",
+      "formed_at": "2026-10-26T12:00:00+00:00",
+      "recognised_at": "2026-10-26T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-30dd34774196524a",
+      "kind": "V",
+      "price": 3992.59,
+      "anchor_timestamp": "2026-10-26T12:00:00+00:00",
+      "formed_at": "2026-10-26T16:00:00+00:00",
+      "recognised_at": "2026-10-26T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4e9e503109655bc1",
+      "kind": "A",
+      "price": 4020.19,
+      "anchor_timestamp": "2026-10-26T16:00:00+00:00",
+      "formed_at": "2026-10-26T20:00:00+00:00",
+      "recognised_at": "2026-10-27T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-19b59a021f00832b",
+      "kind": "V",
+      "price": 4002.14,
+      "anchor_timestamp": "2026-10-27T08:00:00+00:00",
+      "formed_at": "2026-10-27T12:00:00+00:00",
+      "recognised_at": "2026-10-27T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-de62be7c678fd91a",
+      "kind": "A",
+      "price": 4060.76,
+      "anchor_timestamp": "2026-10-27T20:00:00+00:00",
+      "formed_at": "2026-10-28T00:00:00+00:00",
+      "recognised_at": "2026-10-28T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-cc7332e981cd55c4",
+      "kind": "V",
+      "price": 4030.28,
+      "anchor_timestamp": "2026-10-28T04:00:00+00:00",
+      "formed_at": "2026-10-28T08:00:00+00:00",
+      "recognised_at": "2026-10-28T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-dd62851610a3f607",
+      "kind": "A",
+      "price": 4055.61,
+      "anchor_timestamp": "2026-10-28T08:00:00+00:00",
+      "formed_at": "2026-10-28T12:00:00+00:00",
+      "recognised_at": "2026-10-28T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6e087bc9bd824613",
+      "kind": "V",
+      "price": 4039.69,
+      "anchor_timestamp": "2026-10-28T16:00:00+00:00",
+      "formed_at": "2026-10-28T20:00:00+00:00",
+      "recognised_at": "2026-10-29T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-76229f1bbdb3690e",
+      "kind": "A",
+      "price": 4068.51,
+      "anchor_timestamp": "2026-10-28T20:00:00+00:00",
+      "formed_at": "2026-10-29T00:00:00+00:00",
+      "recognised_at": "2026-10-29T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-7178af6aa43a36b9",
+      "kind": "V",
+      "price": 4024.17,
+      "anchor_timestamp": "2026-10-29T04:00:00+00:00",
+      "formed_at": "2026-10-29T08:00:00+00:00",
+      "recognised_at": "2026-10-29T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-efe49cd13e51045f",
+      "kind": "A",
+      "price": 4028.84,
+      "anchor_timestamp": "2026-10-29T08:00:00+00:00",
+      "formed_at": "2026-10-29T12:00:00+00:00",
+      "recognised_at": "2026-10-29T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-a4682ac5a8efc18f",
+      "kind": "V",
+      "price": 4006.47,
+      "anchor_timestamp": "2026-10-29T16:00:00+00:00",
+      "formed_at": "2026-10-29T20:00:00+00:00",
+      "recognised_at": "2026-10-30T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1b81a72f9b354fd5",
+      "kind": "A",
+      "price": 4020.78,
+      "anchor_timestamp": "2026-10-29T20:00:00+00:00",
+      "formed_at": "2026-10-30T00:00:00+00:00",
+      "recognised_at": "2026-10-30T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-453ede6171f38c79",
+      "kind": "V",
+      "price": 3990.68,
+      "anchor_timestamp": "2026-10-30T04:00:00+00:00",
+      "formed_at": "2026-10-30T08:00:00+00:00",
+      "recognised_at": "2026-10-30T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-e3165fa9a0f99c12",
+      "kind": "A",
+      "price": 3991.55,
+      "anchor_timestamp": "2026-10-30T08:00:00+00:00",
+      "formed_at": "2026-10-30T12:00:00+00:00",
+      "recognised_at": "2026-10-30T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-842ba5ead4344233",
+      "kind": "V",
+      "price": 3875.49,
+      "anchor_timestamp": "2026-10-30T20:00:00+00:00",
+      "formed_at": "2026-10-31T00:00:00+00:00",
+      "recognised_at": "2026-11-02T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": false,
+        "gap_between_neighbours": true,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1d8e7cb855413e6f",
+      "kind": "A",
+      "price": 3914.32,
+      "anchor_timestamp": "2026-11-02T04:00:00+00:00",
+      "formed_at": "2026-11-02T08:00:00+00:00",
+      "recognised_at": "2026-11-02T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": true,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-104b4d6b658f2e93",
+      "kind": "V",
+      "price": 3897.62,
+      "anchor_timestamp": "2026-11-02T08:00:00+00:00",
+      "formed_at": "2026-11-02T12:00:00+00:00",
+      "recognised_at": "2026-11-02T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6926d5515565b69d",
+      "kind": "A",
+      "price": 3957.94,
+      "anchor_timestamp": "2026-11-02T16:00:00+00:00",
+      "formed_at": "2026-11-02T20:00:00+00:00",
+      "recognised_at": "2026-11-03T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f9aeb1dfcf253bb9",
+      "kind": "V",
+      "price": 3944.51,
+      "anchor_timestamp": "2026-11-02T20:00:00+00:00",
+      "formed_at": "2026-11-03T00:00:00+00:00",
+      "recognised_at": "2026-11-03T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0afaf9e65eee429d",
+      "kind": "A",
+      "price": 3950.53,
+      "anchor_timestamp": "2026-11-03T00:00:00+00:00",
+      "formed_at": "2026-11-03T04:00:00+00:00",
+      "recognised_at": "2026-11-03T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-f597f4e701ed2f74",
+      "kind": "V",
+      "price": 3909.09,
+      "anchor_timestamp": "2026-11-03T08:00:00+00:00",
+      "formed_at": "2026-11-03T12:00:00+00:00",
+      "recognised_at": "2026-11-03T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-0d9e5040049de218",
+      "kind": "A",
+      "price": 3960.97,
+      "anchor_timestamp": "2026-11-03T12:00:00+00:00",
+      "formed_at": "2026-11-03T16:00:00+00:00",
+      "recognised_at": "2026-11-03T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-d7ab4a2e0212f7d6",
+      "kind": "V",
+      "price": 3928.82,
+      "anchor_timestamp": "2026-11-03T20:00:00+00:00",
+      "formed_at": "2026-11-04T00:00:00+00:00",
+      "recognised_at": "2026-11-04T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-032bd7103917ca0e",
+      "kind": "A",
+      "price": 4066.3,
+      "anchor_timestamp": "2026-11-04T16:00:00+00:00",
+      "formed_at": "2026-11-04T20:00:00+00:00",
+      "recognised_at": "2026-11-05T00:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-1066093418f7876e",
+      "kind": "V",
+      "price": 4058.56,
+      "anchor_timestamp": "2026-11-04T20:00:00+00:00",
+      "formed_at": "2026-11-05T00:00:00+00:00",
+      "recognised_at": "2026-11-05T04:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-4f856ab269282206",
+      "kind": "A",
+      "price": 4124.46,
+      "anchor_timestamp": "2026-11-05T00:00:00+00:00",
+      "formed_at": "2026-11-05T04:00:00+00:00",
+      "recognised_at": "2026-11-05T08:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-2b4b5bfb64ab1558",
+      "kind": "V",
+      "price": 4114.44,
+      "anchor_timestamp": "2026-11-05T04:00:00+00:00",
+      "formed_at": "2026-11-05T08:00:00+00:00",
+      "recognised_at": "2026-11-05T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-21e5ff5f3d4b8bdf",
+      "kind": "A",
+      "price": 4125.85,
+      "anchor_timestamp": "2026-11-05T12:00:00+00:00",
+      "formed_at": "2026-11-05T16:00:00+00:00",
+      "recognised_at": "2026-11-05T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-b9874d63eb8c9a9d",
+      "kind": "V",
+      "price": 4041.6,
+      "anchor_timestamp": "2026-11-06T04:00:00+00:00",
+      "formed_at": "2026-11-06T08:00:00+00:00",
+      "recognised_at": "2026-11-06T12:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-6d8a6f90ee0b49df",
+      "kind": "A",
+      "price": 4072.75,
+      "anchor_timestamp": "2026-11-06T08:00:00+00:00",
+      "formed_at": "2026-11-06T12:00:00+00:00",
+      "recognised_at": "2026-11-06T16:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    },
+    {
+      "structure_id": "av-759b7e4b530a8a4b",
+      "kind": "V",
+      "price": 4044.64,
+      "anchor_timestamp": "2026-11-06T12:00:00+00:00",
+      "formed_at": "2026-11-06T16:00:00+00:00",
+      "recognised_at": "2026-11-06T20:00:00+00:00",
+      "gap_context": {
+        "continuous_neighbours": true,
+        "gap_between_neighbours": false,
+        "gap_before_candidate": false,
+        "gap_after_candidate": false
+      }
+    }
+  ]
+}
